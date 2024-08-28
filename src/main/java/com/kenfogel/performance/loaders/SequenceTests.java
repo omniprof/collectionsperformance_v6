@@ -32,12 +32,10 @@ public class SequenceTests {
     private final static int SIZE = 1000;
     private final static int REPETITIONS = 1000;
     private String[] dataArray;
-    private int[] intArray0;
     private SequenceSpeedTableModel sequenceSpeedTableModel = null;
     private ArrayList<String> arrayList0;
     private long runningTime;
     private final int pos = SIZE / 2;
-    private Random rnd;
 
     /**
      * Constructor Receives reference to the table model that will hold the
@@ -46,7 +44,6 @@ public class SequenceTests {
      * @param sequenceSpeedTableModel
      */
     public SequenceTests(SequenceSpeedTableModel sequenceSpeedTableModel) {
-        rnd = new Random();
         this.sequenceSpeedTableModel = sequenceSpeedTableModel;
         loadArrays();
     }
@@ -61,18 +58,15 @@ public class SequenceTests {
 
         // Load Array
         dataArray = new String[SIZE];
-        intArray0 = new int[SIZE];
         arrayList0 = new ArrayList<>(SIZE * 2);
 
         HashSet<String> dataSet = new HashSet<>();
 
-        rnd = new Random();
         for (int x = 0; x < SIZE; ++x) {
             do { // This loop will repeat if the random word is not unique
                 string = Dictionary.getRandomWordTermCommonNameOrConnector();
             } while (!dataSet.add(string));
             dataArray[x] = string;
-            intArray0[x] = rnd.nextInt();
             arrayList0.add(string);
         }
     }

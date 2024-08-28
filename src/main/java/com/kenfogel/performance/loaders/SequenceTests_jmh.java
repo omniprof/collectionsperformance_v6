@@ -48,9 +48,6 @@ public class SequenceTests_jmh {
 
         public String[] dataArray;
         public String string;
-        public int intValue;
-        public int[] intArray0;
-        public int[] intArray1;
 
         public String[] array0;
         public String[] array1;
@@ -72,8 +69,6 @@ public class SequenceTests_jmh {
 
         public int counter = 0;
 
-        private final Random rnd = new Random();
-
         /**
          * Load words from the dictionary into a set to eliminate
          * duplication and then into an array. Declare and initialize the
@@ -86,9 +81,6 @@ public class SequenceTests_jmh {
             dataArray = new String[SIZE];
             array0 = new String[SIZE];
             array1 = new String[SIZE];
-
-            intArray0 = new int[SIZE];
-            intArray1 = new int[SIZE];
 
             arrayList0 = new ArrayList<>(capacity);
             arrayList1 = new ArrayList<>(capacity);
@@ -109,42 +101,8 @@ public class SequenceTests_jmh {
                 arrayList0.add(string);
                 arrayDeque0.add(string);
                 linkedList0.add(string);
-                intArray0[x] = rnd.nextInt(SIZE);
             }
         }
-    }
-
-    @Benchmark
-    public void do01aLoadArray(StateValues state, Blackhole blackhole) {
-        // Load Array
-        for (int x = 0; x < SIZE; ++x) {
-            state.intArray1[x] = state.intArray0[x];
-        }
-        // The JMH Blackhole when passed a value in the method
-        // should block dead code removal. You can also just 
-        // return a value such as >>return state.hashMap1; <<
-        blackhole.consume(state.intArray1);
-    }
-
-    @Benchmark
-    public void do01bAccessFirstElementArray(StateValues state, Blackhole blackhole) {
-        // Access first element
-        state.intValue = state.intArray0[0];
-        blackhole.consume(state.intValue);
-    }
-
-    @Benchmark
-    public void do01cAccessLastElementArray(StateValues state, Blackhole blackhole) {
-        // Access last element
-        state.intValue = state.intArray0[SIZE - 1];
-        blackhole.consume(state.intValue);
-    }
-
-    @Benchmark
-    public void do01dAccessMiddleElementArray(StateValues state, Blackhole blackhole) {
-        // Access middle element
-        state.intValue = state.intArray0[state.pos];
-        blackhole.consume(state.intValue);
     }
 
     @Benchmark

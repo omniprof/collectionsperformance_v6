@@ -107,7 +107,6 @@ public class MapTests_jmh {
         // should block dead code removal. You can also just 
         // return a value such as >>return state.hashMap1; <<
         blackhole.consume(state.hashMap1);
-
     }
 
     @Benchmark

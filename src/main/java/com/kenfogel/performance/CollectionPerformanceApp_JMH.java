@@ -27,7 +27,7 @@ import org.openjdk.jmh.runner.options.VerboseMode;
 public class CollectionPerformanceApp_JMH {
 
     public static void main(String[] args) throws InterruptedException, RunnerException, Exception {
-//        runBenchmark(SequenceTests_jmh.class);
+        runBenchmark(SequenceTests_jmh.class);
         runBenchmark(MapTests_jmh.class);
     }
 
@@ -42,11 +42,11 @@ public class CollectionPerformanceApp_JMH {
                 .timeUnit(TimeUnit.NANOSECONDS)
                 .mode(Mode.AverageTime)
                 .verbosity(VerboseMode.EXTRA)
-//                .forks(2)
-//                .warmupIterations(4)
-//                .warmupTime(TimeValue.seconds(2L))
-//                .measurementIterations(4)
-//                .measurementTime(TimeValue.seconds(2L))
+                .forks(1)
+                .warmupIterations(3)
+                .warmupTime(TimeValue.seconds(2L))
+                .measurementIterations(3)
+                .measurementTime(TimeValue.seconds(2L))
                 .build();
 
         // Simple run
