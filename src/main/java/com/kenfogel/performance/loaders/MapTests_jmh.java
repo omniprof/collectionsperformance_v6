@@ -98,59 +98,47 @@ public class MapTests_jmh {
     }
 
     @Benchmark
-    public void do01LoadHashMap(StateValues state, Blackhole blackhole) {
+    public void do01LoadHashMap(StateValues state) {
         // Load Data
         for (int x = 0; x < SIZE; ++x) {
             state.hashMap1.put(state.dataArray[x], state.dataArray[x]);
         }
-        // The JMH Blackhole when passed a value in the method
-        // should block dead code removal. You can also just 
-        // return a value such as >>return state.hashMap1; <<
-        blackhole.consume(state.hashMap1);
     }
 
     @Benchmark
-    public void do02AddToHashMap(StateValues state, Blackhole blackhole) {
+    public void do02AddToHashMap(StateValues state) {
         // Add to Hash Map
         state.hashMap0.put("KenF", "KenF");
-        blackhole.consume(state.hashMap0);
     }
 
     @Benchmark
-    public void do03HashMapSearch(StateValues state, Blackhole blackhole) {
+    public void do03HashMapSearch(StateValues state) {
         // Find SEARCH_SIZE elements in HashMap
         while (state.it.hasNext()) {
             state.string = state.hashMap0.get(state.it.next());
         }
-        blackhole.consume(state.hashMap0);
     }
 
     @Benchmark
-    public void do04LoadTreeMap(StateValues state, Blackhole blackhole) {
+    public void do04LoadTreeMap(StateValues state) {
         // Load Tree Map
         for (int x = 0; x < SIZE; ++x) {
             state.treeMap1.put(state.dataArray[x], state.dataArray[x]);
         }
-        // The JMH Blackhole when passed a value in the method
-        // should block dead code removal. You can also just 
-        // return a value such as >>return state.hashMap1; <<
-        blackhole.consume(state.treeMap1);
     }
 
     @Benchmark
-    public void do05AddToTreeMap(StateValues state, Blackhole blackhole) {
+    public void do05AddToTreeMap(StateValues state) {
         // Add to Tree Map
         state.treeMap0.put("kenF", "kenF");
-        blackhole.consume(state.treeMap0);
     }
 
     @Benchmark
-    public void do06TreeMapSearch(StateValues state, Blackhole blackhole) {
+    public void do06TreeMapSearch(StateValues state) {
         // Find SEARCH_SIZE elements in Tree
         while (state.it.hasNext()) {
             state.string = state.treeMap0.get(state.it.next());
         }
-        blackhole.consume(state.string);
     }
 
 }

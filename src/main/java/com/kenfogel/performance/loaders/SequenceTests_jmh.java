@@ -8,7 +8,6 @@ import org.openjdk.jmh.annotations.Level;
 import org.openjdk.jmh.annotations.Scope;
 import org.openjdk.jmh.annotations.Setup;
 import org.openjdk.jmh.annotations.State;
-import org.openjdk.jmh.infra.Blackhole;
 
 /**
  * Rewritten to be able to do the benchmark internally for the Swing
@@ -32,7 +31,7 @@ import org.openjdk.jmh.infra.Blackhole;
  *
  */
 // Use this annotation if you declare non-static variables in this class
-//@State(Scope.Benchmark)
+// @State(Scope.Benchmark)
 public class SequenceTests_jmh {
 
     private final static int SIZE = 1000;
@@ -104,182 +103,147 @@ public class SequenceTests_jmh {
     }
 
     @Benchmark
-    public void do02aLoadArray(StateValues state, Blackhole blackhole) {
+    public void do02aLoadArray(StateValues state) {
         // Load Array
         for (int x = 0; x < SIZE; ++x) {
             state.array1[x] = state.dataArray[x];
         }
-        // The JMH Blackhole when passed a value in the method
-        // should block dead code removal. You can also just 
-        // return a value such as >>return state.hashMap1; <<
-        blackhole.consume(state.array1);
     }
 
     @Benchmark
-    public void do02bAccessFirstElementArray(StateValues state, Blackhole blackhole) {
+    public void do02bAccessFirstElementArray(StateValues state) {
         // Access first element
-        state.string = state.array0[0];
-        blackhole.consume(state.string);
+        String string = state.array0[0];
     }
 
     @Benchmark
-    public void do02cAccessLastElementArray(StateValues state, Blackhole blackhole) {
+    public void do02cAccessLastElementArray(StateValues state) {
         // Access last element
         state.string = state.array0[SIZE - 1];
-        blackhole.consume(state.string);
     }
 
     @Benchmark
-    public void do02dAccessMiddleElementArray(StateValues state, Blackhole blackhole) {
+    public void do02dAccessMiddleElementArray(StateValues state) {
         // Access middle element
         state.string = state.array0[state.pos];
-        blackhole.consume(state.string);
     }
 
     @Benchmark
-    public void do03aLoadArrayList(StateValues state, Blackhole blackhole) {
+    public void do03aLoadArrayList(StateValues state) {
         // Load ArrayList
         for (int x = 0; x < SIZE; ++x) {
             state.arrayList1.add(state.dataArray[x]);
         }
-        // The JMH Blackhole when passed a value in the method
-        // should block dead code removal. You can also just 
-        // return a value such as >>return state.hashMap1; <<
-        blackhole.consume(state.array1);
     }
 
     @Benchmark
-    public void do03bAccessFirstElementArrayList(StateValues state, Blackhole blackhole) {
+    public void do03bAccessFirstElementArrayList(StateValues state) {
         // Access first element
         state.string = state.arrayList0.get(0);
-        blackhole.consume(state.string);
     }
 
     @Benchmark
-    public void do03cAccessLastElementArrayList(StateValues state, Blackhole blackhole) {
+    public void do03cAccessLastElementArrayList(StateValues state) {
         // Access last element
         state.string = state.arrayList0.get(SIZE - 1);
-        blackhole.consume(state.string);
     }
 
     @Benchmark
-    public void do03dAccessMiddleElementArrayList(StateValues state, Blackhole blackhole) {
+    public void do03dAccessMiddleElementArrayList(StateValues state) {
         // Access middle element
         state.string = state.arrayList0.get(state.pos);
-        blackhole.consume(state.string);
     }
 
     @Benchmark
-    public void do03eInsertFirstElementArrayList(StateValues state, Blackhole blackhole) {
+    public void do03eInsertFirstElementArrayList(StateValues state) {
         // Insert at start
         state.arrayList0.addFirst("Dawson College");
-        blackhole.consume(state.arrayList0);
     }
 
     @Benchmark
-    public void do03fInsertLastElementArrayList(StateValues state, Blackhole blackhole) {
+    public void do03fInsertLastElementArrayList(StateValues state) {
         // Insert at end
         state.arrayList0.addLast("Dawson College");
-        blackhole.consume(state.arrayList0);
     }
 
     @Benchmark
-    public void do03gInsertMiddleElementArrayList(StateValues state, Blackhole blackhole) {
+    public void do03gInsertMiddleElementArrayList(StateValues state) {
         // Insert in middle
         state.arrayList0.add(state.pos, "Dawson College");
-        blackhole.consume(state.arrayList0);
     }
 
     @Benchmark
-    public void do04aLoadDeque(StateValues state, Blackhole blackhole) {
+    public void do04aLoadDeque(StateValues state) {
         // Load ArrayDeque
         for (int x = 0; x < SIZE; ++x) {
             state.arrayDeque1.add(state.dataArray[x]);
         }
-        // The JMH Blackhole when passed a value in the method
-        // should block dead code removal. You can also just 
-        // return a value such as >>return state.hashMap1; <<
-        blackhole.consume(state.arrayDeque1);
     }
 
     @Benchmark
-    public void do04bAccessFirstElementDeque(StateValues state, Blackhole blackhole) {
+    public void do04bAccessFirstElementDeque(StateValues state) {
         // Access first element
         state.string = state.arrayDeque0.getFirst();
-        blackhole.consume(state.string);
     }
 
     @Benchmark
-    public void do04cAccessLastElementDeque(StateValues state, Blackhole blackhole) {
+    public void do04cAccessLastElementDeque(StateValues state) {
         // Access last element
         state.string = state.arrayDeque0.getLast();
-        blackhole.consume(state.string);
     }
 
     @Benchmark
-    public void do04dInsertFirstElementDeque(StateValues state, Blackhole blackhole) {
+    public void do04dInsertFirstElementDeque(StateValues state) {
         // Insert at start
         state.arrayDeque0.addFirst("Dawson College");
-        blackhole.consume(state.arrayDeque0);
     }
 
     @Benchmark
-    public void do04eInsertLastElementDeque(StateValues state, Blackhole blackhole) {
+    public void do04eInsertLastElementDeque(StateValues state) {
         // Insert at end
         state.arrayDeque0.addLast("Dawson College");
-        blackhole.consume(state.arrayDeque0);
     }
 
     @Benchmark
-    public void do05aLoadLinkedList(StateValues state, Blackhole blackhole) {
+    public void do05aLoadLinkedList(StateValues state) {
         // Load LinkedList
         for (int x = 0; x < SIZE; ++x) {
             state.linkedList1.add(state.dataArray[x]);
         }
-        // The JMH Blackhole when passed a value in the method
-        // should block dead code removal. You can also just 
-        // return a value such as >>return state.hashMap1; <<
-        blackhole.consume(state.linkedList1);
     }
 
     @Benchmark
-    public void do05bAccessFirstElementLinkedList(StateValues state, Blackhole blackhole) {
+    public void do05bAccessFirstElementLinkedList(StateValues state) {
         // Access first element
         state.string = state.linkedList0.getFirst();
-        blackhole.consume(state.string);
     }
 
     @Benchmark
-    public void do05cAccessLastElementLinkedList(StateValues state, Blackhole blackhole) {
+    public void do05cAccessLastElementLinkedList(StateValues state) {
         // Access last element
         state.string = state.linkedList0.getLast();
-        blackhole.consume(state.string);
     }
 
     @Benchmark
-    public void do05dAccessMiddleElementLinkedList(StateValues state, Blackhole blackhole) {
+    public void do05dAccessMiddleElementLinkedList(StateValues state) {
         state.string = state.linkedList0.get(state.pos);
-        blackhole.consume(state.string);
     }
 
     @Benchmark
-    public void do05eInsertFirstElementLinkedList(StateValues state, Blackhole blackhole) {
+    public void do05eInsertFirstElementLinkedList(StateValues state) {
         // Insert at start
         state.linkedList0.addFirst("Dawson College");
-        blackhole.consume(state.linkedList0);
     }
 
     @Benchmark
-    public void do05fInsertLastElementLinkedList(StateValues state, Blackhole blackhole) {
+    public void do05fInsertLastElementLinkedList(StateValues state) {
         // Insert at end
         state.linkedList0.addLast("Dawson College");
-        blackhole.consume(state.linkedList0);
     }
 
     @Benchmark
-    public void do05gInsertMiddleElementLinkedList(StateValues state, Blackhole blackhole) {
+    public void do05gInsertMiddleElementLinkedList(StateValues state) {
         // Insert in the middle
         state.linkedList0.add(state.pos, "Dawson College");
-        blackhole.consume(state.linkedList0);
     }
 }

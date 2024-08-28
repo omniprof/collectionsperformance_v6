@@ -1,10 +1,10 @@
 package com.kenfogel.performance;
 
-//import com.kenfogel.performance.loaders.MapTests_jmh;
 import com.kenfogel.performance.loaders.MapTests_jmh;
 import com.kenfogel.performance.loaders.SequenceTests_jmh;
 import java.util.Collection;
 import java.util.Iterator;
+import java.util.Random;
 import java.util.concurrent.TimeUnit;
 import org.openjdk.jmh.annotations.Mode;
 import org.openjdk.jmh.results.Result;
@@ -37,32 +37,32 @@ public class CollectionPerformanceApp_JMH {
                 .shouldDoGC(true)
                 // .resultFormat(ResultFormatType.JSON)
                 // .result(clazz.getSimpleName() + ".json")
-                .output("Results.txt")
+                .output("Results" + new Random().nextInt() + ".txt")
                 .verbosity(VerboseMode.EXTRA)
                 .shouldFailOnError(true)
                 .timeUnit(TimeUnit.NANOSECONDS)
                 .mode(Mode.AverageTime)
                 .forks(2)
                 .warmupIterations(3)
-                .warmupTime(TimeValue.seconds(3L))
+                .warmupTime(TimeValue.seconds(2L))
                 .measurementIterations(3)
-                .measurementTime(TimeValue.seconds(3L))
+                .measurementTime(TimeValue.seconds(2L))
                 .build();
 
         // Simple run
-        //new Runner(baseOpts).run();
+        new Runner(baseOpts).run();
         
         // Collect all the results so that they can be accessed programatically.
         // Run the benchmarks and collect the results from each benchmark
-        Collection<RunResult> runner = new Runner(baseOpts).run();
+//        Collection<RunResult> runner = new Runner(baseOpts).run();
 
         // Iterator to go thru all the results
-        Iterator<RunResult> allResults = runner.iterator();
-        while (allResults.hasNext()) {
-            Result myResult = allResults.next().getPrimaryResult();
-            System.out.printf("%s  %10.3f %s%n",myResult.getLabel(),
-                    myResult.getScore(), myResult.getScoreUnit()
-            );
-        }
+//        Iterator<RunResult> allResults = runner.iterator();
+//        while (allResults.hasNext()) {
+//            Result myResult = allResults.next().getPrimaryResult();
+//            System.out.printf("%s  %10.3f %s%n",myResult.getLabel(),
+//                    myResult.getScore(), myResult.getScoreUnit()
+//            );
+//        }
     }
 }
