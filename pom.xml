@@ -19,9 +19,9 @@
         <uberjar.name>javazone</uberjar.name>
 
         <!-- Run the Swing version -->
-        <exec.mainClass>com.kenfogel.performance.CollectionPerformanceApp</exec.mainClass>
+<!--        <exec.mainClass>com.kenfogel.performance.CollectionPerformanceApp</exec.mainClass>-->
         <!-- Run the JMH version -->
-<!--                <exec.mainClass>com.kenfogel.performance.CollectionPerformanceApp_JMH</exec.mainClass>-->
+                <exec.mainClass>com.kenfogel.performance.CollectionPerformanceApp_JMH</exec.mainClass>
 
         <skiptests>true</skiptests>
         <maven.compiler.release>${java.target}</maven.compiler.release>

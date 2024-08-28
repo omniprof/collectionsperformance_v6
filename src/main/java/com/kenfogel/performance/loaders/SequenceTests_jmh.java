@@ -67,8 +67,6 @@ public class SequenceTests_jmh {
         public final int pos = SIZE / 2;
         public final int capacity = SIZE * 2;
 
-        public int counter = 0;
-
         /**
          * Load words from the dictionary into a set to eliminate
          * duplication and then into an array. Declare and initialize the

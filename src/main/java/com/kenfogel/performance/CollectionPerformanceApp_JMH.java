@@ -34,19 +34,19 @@ public class CollectionPerformanceApp_JMH {
     public static void runBenchmark(Class<?> clazz) throws Exception {
         Options baseOpts = new OptionsBuilder()
                 .include(clazz.getSimpleName())
-                .resultFormat(ResultFormatType.JSON)
                 .shouldDoGC(true)
-                .result(clazz.getSimpleName() + ".json")
-                // .output("Results.txt")
+                // .resultFormat(ResultFormatType.JSON)
+                // .result(clazz.getSimpleName() + ".json")
+                .output("Results.txt")
+                .verbosity(VerboseMode.EXTRA)
                 .shouldFailOnError(true)
                 .timeUnit(TimeUnit.NANOSECONDS)
                 .mode(Mode.AverageTime)
-                .verbosity(VerboseMode.EXTRA)
-                .forks(1)
+                .forks(2)
                 .warmupIterations(3)
-                .warmupTime(TimeValue.seconds(2L))
+                .warmupTime(TimeValue.seconds(3L))
                 .measurementIterations(3)
-                .measurementTime(TimeValue.seconds(2L))
+                .measurementTime(TimeValue.seconds(3L))
                 .build();
 
         // Simple run
