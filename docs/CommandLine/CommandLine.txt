@@ -1,0 +1,45 @@
+Change only -DgroupId, -DartifactId, and -Dversion
+
+Windows Console (NOT PowerShell)
+mvn archetype:generate ^
+ -Dmaven.repo.remote=https://repo.maven.apache.org/maven2/ ^
+ -DinteractiveMode=false ^
+ -DarchetypeGroupId=org.openjdk.jmh ^
+ -DarchetypeArtifactId=jmh-java-benchmark-archetype ^
+ -DgroupId=com.kenfogel ^
+ -DartifactId=moosezone ^
+ -Dversion=1.0 	
+
+Linux/MacOS
+mvn archetype:generate \
+ -Dmaven.repo.remote=https://repo.maven.apache.org/maven2/ \
+ -DinteractiveMode=false \
+ -DarchetypeGroupId=org.openjdk.jmh \
+ -DarchetypeArtifactId=jmh-java-benchmark-archetype \
+ -DgroupId=com.kenfogel \
+ -DartifactId=javazone \
+ -Dversion=1.0 	
+
+PowerShell (Accepts the input as one line but then fails to execute the task)
+mvn archetype:generate `
+  -DinteractiveMode=false `
+  -DarchetypeGroupId=org.openjdk.jmh `
+  -DarchetypeArtifactId=jmh-java-benchmark-archetype `
+  -DgroupId=com.kenfogel `
+  -DartifactId=javazone `
+  -Dversion=1.00
+
+@BenchmarkMode(Mode.AverageTime)
+@OutputTimeUnit(TimeUnit.NANOSECONDS)
+
+    @Benchmark
+    @Fork(value = 2)
+    @Warmup(iterations = 2, time = 2)
+    @Measurement(iterations = 3, time = 2)
+
+
+    @State(Scope.Benchmark)
+    public static class StateValues {
+
+    }
+
