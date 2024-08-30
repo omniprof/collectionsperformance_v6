@@ -37,7 +37,7 @@ public class CollectionPerformanceApp_JMH {
                 .shouldDoGC(true)
                 // .resultFormat(ResultFormatType.JSON)
                 // .result(clazz.getSimpleName() + ".json")
-                .output("Results" + new Random().nextInt() + ".txt")
+                // .output(clazz.getSimpleName() + new Random().nextInt() + ".txt")
                 .verbosity(VerboseMode.EXTRA)
                 .shouldFailOnError(true)
                 .timeUnit(TimeUnit.NANOSECONDS)
