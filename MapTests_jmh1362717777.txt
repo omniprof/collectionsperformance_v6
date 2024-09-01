@@ -1,0 +1,528 @@
+Dell XPS 8940 11th Gen Intel(R) Core(TM) i9-11900/8 Core @ 2.50GHz 32 GB Ram
+Windows 11 Enterprise
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.kenfogel.performance.loaders.MapTests_jmh.do01LoadHashMap
+
+# Run progress: 0.00% complete, ETA 00:50:00
+# Fork: 1 of 5
+# Warmup Iteration   1: 25016.683 ns/op
+# Warmup Iteration   2: 23541.805 ns/op
+# Warmup Iteration   3: 23495.477 ns/op
+# Warmup Iteration   4: 23455.973 ns/op
+# Warmup Iteration   5: 23556.878 ns/op
+Iteration   1: 23501.210 ns/op
+Iteration   2: 23505.448 ns/op
+Iteration   3: 23589.055 ns/op
+Iteration   4: 23482.796 ns/op
+Iteration   5: 23525.980 ns/op
+
+# Run progress: 3.33% complete, ETA 00:48:30
+# Fork: 2 of 5
+# Warmup Iteration   1: 25493.954 ns/op
+# Warmup Iteration   2: 25446.018 ns/op
+# Warmup Iteration   3: 25354.915 ns/op
+# Warmup Iteration   4: 24658.698 ns/op
+# Warmup Iteration   5: 24528.424 ns/op
+Iteration   1: 24551.047 ns/op
+Iteration   2: 24559.206 ns/op
+Iteration   3: 24563.184 ns/op
+Iteration   4: 24538.117 ns/op
+Iteration   5: 24673.327 ns/op
+
+# Run progress: 6.67% complete, ETA 00:46:49
+# Fork: 3 of 5
+# Warmup Iteration   1: 26312.709 ns/op
+# Warmup Iteration   2: 25368.538 ns/op
+# Warmup Iteration   3: 25110.902 ns/op
+# Warmup Iteration   4: 24537.402 ns/op
+# Warmup Iteration   5: 24703.639 ns/op
+Iteration   1: 24749.597 ns/op
+Iteration   2: 24697.153 ns/op
+Iteration   3: 24662.184 ns/op
+Iteration   4: 24791.218 ns/op
+Iteration   5: 24720.049 ns/op
+
+# Run progress: 10.00% complete, ETA 00:45:09
+# Fork: 4 of 5
+# Warmup Iteration   1: 24464.421 ns/op
+# Warmup Iteration   2: 23604.842 ns/op
+# Warmup Iteration   3: 23462.035 ns/op
+# Warmup Iteration   4: 23623.447 ns/op
+# Warmup Iteration   5: 23533.146 ns/op
+Iteration   1: 23480.860 ns/op
+Iteration   2: 23659.742 ns/op
+Iteration   3: 23813.157 ns/op
+Iteration   4: 23494.656 ns/op
+Iteration   5: 23619.505 ns/op
+
+# Run progress: 13.33% complete, ETA 00:43:29
+# Fork: 5 of 5
+# Warmup Iteration   1: 24940.120 ns/op
+# Warmup Iteration   2: 24177.389 ns/op
+# Warmup Iteration   3: 24052.788 ns/op
+# Warmup Iteration   4: 25063.057 ns/op
+# Warmup Iteration   5: 24542.880 ns/op
+Iteration   1: 24346.380 ns/op
+Iteration   2: 24317.657 ns/op
+Iteration   3: 24460.229 ns/op
+Iteration   4: 24413.319 ns/op
+Iteration   5: 24382.841 ns/op
+
+
+Result "com.kenfogel.performance.loaders.MapTests_jmh.do01LoadHashMap":
+  24163.917 ±(99.9%) 385.629 ns/op [Average]
+  (min, avg, max) = (23480.860, 24163.917, 24791.218), stdev = 514.804
+  CI (99.9%): [23778.288, 24549.546] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.kenfogel.performance.loaders.MapTests_jmh.do02AddToHashMap
+
+# Run progress: 16.67% complete, ETA 00:41:48
+# Fork: 1 of 5
+# Warmup Iteration   1: 118.016 ns/op
+# Warmup Iteration   2: 87.574 ns/op
+# Warmup Iteration   3: 51.488 ns/op
+# Warmup Iteration   4: 42.790 ns/op
+# Warmup Iteration   5: 44.831 ns/op
+Iteration   1: 44.404 ns/op
+Iteration   2: 45.280 ns/op
+Iteration   3: 45.204 ns/op
+Iteration   4: 51.634 ns/op
+Iteration   5: 41.574 ns/op
+
+# Run progress: 20.00% complete, ETA 00:40:08
+# Fork: 2 of 5
+# Warmup Iteration   1: 121.756 ns/op
+# Warmup Iteration   2: 84.716 ns/op
+# Warmup Iteration   3: 51.388 ns/op
+# Warmup Iteration   4: 41.382 ns/op
+# Warmup Iteration   5: 41.010 ns/op
+Iteration   1: 47.619 ns/op
+Iteration   2: 43.539 ns/op
+Iteration   3: 41.885 ns/op
+Iteration   4: 41.613 ns/op
+Iteration   5: 43.693 ns/op
+
+# Run progress: 23.33% complete, ETA 00:38:28
+# Fork: 3 of 5
+# Warmup Iteration   1: 122.627 ns/op
+# Warmup Iteration   2: 86.856 ns/op
+# Warmup Iteration   3: 52.126 ns/op
+# Warmup Iteration   4: 39.787 ns/op
+# Warmup Iteration   5: 40.814 ns/op
+Iteration   1: 40.836 ns/op
+Iteration   2: 41.935 ns/op
+Iteration   3: 44.272 ns/op
+Iteration   4: 44.680 ns/op
+Iteration   5: 43.589 ns/op
+
+# Run progress: 26.67% complete, ETA 00:36:47
+# Fork: 4 of 5
+# Warmup Iteration   1: 121.384 ns/op
+# Warmup Iteration   2: 85.380 ns/op
+# Warmup Iteration   3: 50.085 ns/op
+# Warmup Iteration   4: 42.726 ns/op
+# Warmup Iteration   5: 44.633 ns/op
+Iteration   1: 46.150 ns/op
+Iteration   2: 45.360 ns/op
+Iteration   3: 45.051 ns/op
+Iteration   4: 44.816 ns/op
+Iteration   5: 45.622 ns/op
+
+# Run progress: 30.00% complete, ETA 00:35:07
+# Fork: 5 of 5
+# Warmup Iteration   1: 131.900 ns/op
+# Warmup Iteration   2: 86.135 ns/op
+# Warmup Iteration   3: 52.941 ns/op
+# Warmup Iteration   4: 43.171 ns/op
+# Warmup Iteration   5: 42.016 ns/op
+Iteration   1: 42.381 ns/op
+Iteration   2: 45.574 ns/op
+Iteration   3: 42.935 ns/op
+Iteration   4: 42.575 ns/op
+Iteration   5: 43.814 ns/op
+
+
+Result "com.kenfogel.performance.loaders.MapTests_jmh.do02AddToHashMap":
+  44.241 ±(99.9%) 1.701 ns/op [Average]
+  (min, avg, max) = (40.836, 44.241, 51.634), stdev = 2.270
+  CI (99.9%): [42.541, 45.942] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.kenfogel.performance.loaders.MapTests_jmh.do03HashMapSearch
+
+# Run progress: 33.33% complete, ETA 00:33:27
+# Fork: 1 of 5
+# Warmup Iteration   1: 372.716 ns/op
+# Warmup Iteration   2: 327.183 ns/op
+# Warmup Iteration   3: 273.415 ns/op
+# Warmup Iteration   4: 295.218 ns/op
+# Warmup Iteration   5: 283.249 ns/op
+Iteration   1: 277.870 ns/op
+Iteration   2: 276.680 ns/op
+Iteration   3: 276.306 ns/op
+Iteration   4: 275.502 ns/op
+Iteration   5: 275.333 ns/op
+
+# Run progress: 36.67% complete, ETA 00:31:46
+# Fork: 2 of 5
+# Warmup Iteration   1: 383.148 ns/op
+# Warmup Iteration   2: 335.944 ns/op
+# Warmup Iteration   3: 279.042 ns/op
+# Warmup Iteration   4: 267.270 ns/op
+# Warmup Iteration   5: 272.031 ns/op
+Iteration   1: 269.563 ns/op
+Iteration   2: 267.876 ns/op
+Iteration   3: 268.277 ns/op
+Iteration   4: 273.617 ns/op
+Iteration   5: 271.403 ns/op
+
+# Run progress: 40.00% complete, ETA 00:30:06
+# Fork: 3 of 5
+# Warmup Iteration   1: 358.201 ns/op
+# Warmup Iteration   2: 313.703 ns/op
+# Warmup Iteration   3: 269.328 ns/op
+# Warmup Iteration   4: 264.536 ns/op
+# Warmup Iteration   5: 260.590 ns/op
+Iteration   1: 262.304 ns/op
+Iteration   2: 267.428 ns/op
+Iteration   3: 260.666 ns/op
+Iteration   4: 264.121 ns/op
+Iteration   5: 263.535 ns/op
+
+# Run progress: 43.33% complete, ETA 00:28:26
+# Fork: 4 of 5
+# Warmup Iteration   1: 376.588 ns/op
+# Warmup Iteration   2: 323.211 ns/op
+# Warmup Iteration   3: 264.294 ns/op
+# Warmup Iteration   4: 292.038 ns/op
+# Warmup Iteration   5: 292.112 ns/op
+Iteration   1: 291.546 ns/op
+Iteration   2: 295.197 ns/op
+Iteration   3: 294.361 ns/op
+Iteration   4: 291.415 ns/op
+Iteration   5: 291.649 ns/op
+
+# Run progress: 46.67% complete, ETA 00:26:45
+# Fork: 5 of 5
+# Warmup Iteration   1: 388.065 ns/op
+# Warmup Iteration   2: 320.975 ns/op
+# Warmup Iteration   3: 271.166 ns/op
+# Warmup Iteration   4: 267.859 ns/op
+# Warmup Iteration   5: 272.622 ns/op
+Iteration   1: 265.892 ns/op
+Iteration   2: 275.507 ns/op
+Iteration   3: 265.362 ns/op
+Iteration   4: 270.828 ns/op
+Iteration   5: 271.184 ns/op
+
+
+Result "com.kenfogel.performance.loaders.MapTests_jmh.do03HashMapSearch":
+  274.537 ±(99.9%) 7.846 ns/op [Average]
+  (min, avg, max) = (260.666, 274.537, 295.197), stdev = 10.475
+  CI (99.9%): [266.691, 282.383] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.kenfogel.performance.loaders.MapTests_jmh.do04LoadTreeMap
+
+# Run progress: 50.00% complete, ETA 00:25:05
+# Fork: 1 of 5
+# Warmup Iteration   1: 115648.221 ns/op
+# Warmup Iteration   2: 112140.204 ns/op
+# Warmup Iteration   3: 113658.209 ns/op
+# Warmup Iteration   4: 114053.564 ns/op
+# Warmup Iteration   5: 113748.427 ns/op
+Iteration   1: 115747.281 ns/op
+Iteration   2: 116104.271 ns/op
+Iteration   3: 114104.509 ns/op
+Iteration   4: 116240.554 ns/op
+Iteration   5: 117817.474 ns/op
+
+# Run progress: 53.33% complete, ETA 00:23:25
+# Fork: 2 of 5
+# Warmup Iteration   1: 114373.204 ns/op
+# Warmup Iteration   2: 112211.629 ns/op
+# Warmup Iteration   3: 112904.379 ns/op
+# Warmup Iteration   4: 112382.091 ns/op
+# Warmup Iteration   5: 112020.898 ns/op
+Iteration   1: 112478.894 ns/op
+Iteration   2: 112174.134 ns/op
+Iteration   3: 113638.306 ns/op
+Iteration   4: 112518.025 ns/op
+Iteration   5: 112548.256 ns/op
+
+# Run progress: 56.67% complete, ETA 00:21:44
+# Fork: 3 of 5
+# Warmup Iteration   1: 111437.348 ns/op
+# Warmup Iteration   2: 110781.632 ns/op
+# Warmup Iteration   3: 110428.105 ns/op
+# Warmup Iteration   4: 110328.874 ns/op
+# Warmup Iteration   5: 111723.602 ns/op
+Iteration   1: 111471.643 ns/op
+Iteration   2: 110394.480 ns/op
+Iteration   3: 110514.558 ns/op
+Iteration   4: 110406.116 ns/op
+Iteration   5: 112171.686 ns/op
+
+# Run progress: 60.00% complete, ETA 00:20:04
+# Fork: 4 of 5
+# Warmup Iteration   1: 114463.645 ns/op
+# Warmup Iteration   2: 113347.614 ns/op
+# Warmup Iteration   3: 112975.567 ns/op
+# Warmup Iteration   4: 113160.015 ns/op
+# Warmup Iteration   5: 113686.896 ns/op
+Iteration   1: 115220.847 ns/op
+Iteration   2: 114316.309 ns/op
+Iteration   3: 114258.923 ns/op
+Iteration   4: 113213.659 ns/op
+Iteration   5: 113429.989 ns/op
+
+# Run progress: 63.33% complete, ETA 00:18:23
+# Fork: 5 of 5
+# Warmup Iteration   1: 112899.022 ns/op
+# Warmup Iteration   2: 111779.551 ns/op
+# Warmup Iteration   3: 111309.045 ns/op
+# Warmup Iteration   4: 111493.721 ns/op
+# Warmup Iteration   5: 111792.130 ns/op
+Iteration   1: 112192.770 ns/op
+Iteration   2: 112616.749 ns/op
+Iteration   3: 112114.437 ns/op
+Iteration   4: 111928.389 ns/op
+Iteration   5: 111727.233 ns/op
+
+
+Result "com.kenfogel.performance.loaders.MapTests_jmh.do04LoadTreeMap":
+  113173.980 ±(99.9%) 1440.085 ns/op [Average]
+  (min, avg, max) = (110394.480, 113173.980, 117817.474), stdev = 1922.472
+  CI (99.9%): [111733.895, 114614.064] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.kenfogel.performance.loaders.MapTests_jmh.do05AddToTreeMap
+
+# Run progress: 66.67% complete, ETA 00:16:43
+# Fork: 1 of 5
+# Warmup Iteration   1: 265.499 ns/op
+# Warmup Iteration   2: 219.860 ns/op
+# Warmup Iteration   3: 181.865 ns/op
+# Warmup Iteration   4: 162.809 ns/op
+# Warmup Iteration   5: 163.307 ns/op
+Iteration   1: 164.353 ns/op
+Iteration   2: 163.261 ns/op
+Iteration   3: 163.000 ns/op
+Iteration   4: 164.373 ns/op
+Iteration   5: 163.876 ns/op
+
+# Run progress: 70.00% complete, ETA 00:15:03
+# Fork: 2 of 5
+# Warmup Iteration   1: 261.273 ns/op
+# Warmup Iteration   2: 209.084 ns/op
+# Warmup Iteration   3: 176.567 ns/op
+# Warmup Iteration   4: 150.463 ns/op
+# Warmup Iteration   5: 154.544 ns/op
+Iteration   1: 152.504 ns/op
+Iteration   2: 161.553 ns/op
+Iteration   3: 166.027 ns/op
+Iteration   4: 154.179 ns/op
+Iteration   5: 153.581 ns/op
+
+# Run progress: 73.33% complete, ETA 00:13:22
+# Fork: 3 of 5
+# Warmup Iteration   1: 245.333 ns/op
+# Warmup Iteration   2: 194.928 ns/op
+# Warmup Iteration   3: 161.992 ns/op
+# Warmup Iteration   4: 149.415 ns/op
+# Warmup Iteration   5: 149.748 ns/op
+Iteration   1: 151.039 ns/op
+Iteration   2: 150.438 ns/op
+Iteration   3: 149.076 ns/op
+Iteration   4: 150.107 ns/op
+Iteration   5: 149.183 ns/op
+
+# Run progress: 76.67% complete, ETA 00:11:42
+# Fork: 4 of 5
+# Warmup Iteration   1: 245.389 ns/op
+# Warmup Iteration   2: 203.799 ns/op
+# Warmup Iteration   3: 173.063 ns/op
+# Warmup Iteration   4: 161.842 ns/op
+# Warmup Iteration   5: 164.258 ns/op
+Iteration   1: 165.054 ns/op
+Iteration   2: 162.945 ns/op
+Iteration   3: 166.992 ns/op
+Iteration   4: 164.612 ns/op
+Iteration   5: 176.545 ns/op
+
+# Run progress: 80.00% complete, ETA 00:10:02
+# Fork: 5 of 5
+# Warmup Iteration   1: 247.222 ns/op
+# Warmup Iteration   2: 204.323 ns/op
+# Warmup Iteration   3: 167.564 ns/op
+# Warmup Iteration   4: 152.919 ns/op
+# Warmup Iteration   5: 150.992 ns/op
+Iteration   1: 153.837 ns/op
+Iteration   2: 153.488 ns/op
+Iteration   3: 152.765 ns/op
+Iteration   4: 153.622 ns/op
+Iteration   5: 152.082 ns/op
+
+
+Result "com.kenfogel.performance.loaders.MapTests_jmh.do05AddToTreeMap":
+  158.340 ±(99.9%) 5.500 ns/op [Average]
+  (min, avg, max) = (149.076, 158.340, 176.545), stdev = 7.343
+  CI (99.9%): [152.839, 163.840] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.kenfogel.performance.loaders.MapTests_jmh.do06TreeMapSearch
+
+# Run progress: 83.33% complete, ETA 00:08:21
+# Fork: 1 of 5
+# Warmup Iteration   1: 1348.302 ns/op
+# Warmup Iteration   2: 1285.666 ns/op
+# Warmup Iteration   3: 1227.314 ns/op
+# Warmup Iteration   4: 1194.217 ns/op
+# Warmup Iteration   5: 1193.210 ns/op
+Iteration   1: 1195.351 ns/op
+Iteration   2: 1195.138 ns/op
+Iteration   3: 1194.491 ns/op
+Iteration   4: 1199.131 ns/op
+Iteration   5: 1210.660 ns/op
+
+# Run progress: 86.67% complete, ETA 00:06:41
+# Fork: 2 of 5
+# Warmup Iteration   1: 1354.634 ns/op
+# Warmup Iteration   2: 1274.208 ns/op
+# Warmup Iteration   3: 1213.727 ns/op
+# Warmup Iteration   4: 1214.490 ns/op
+# Warmup Iteration   5: 1210.420 ns/op
+Iteration   1: 1217.144 ns/op
+Iteration   2: 1209.964 ns/op
+Iteration   3: 1207.849 ns/op
+Iteration   4: 1226.657 ns/op
+Iteration   5: 1206.088 ns/op
+
+# Run progress: 90.00% complete, ETA 00:05:01
+# Fork: 3 of 5
+# Warmup Iteration   1: 1347.980 ns/op
+# Warmup Iteration   2: 1288.421 ns/op
+# Warmup Iteration   3: 1232.758 ns/op
+# Warmup Iteration   4: 1218.802 ns/op
+# Warmup Iteration   5: 1212.253 ns/op
+Iteration   1: 1218.935 ns/op
+Iteration   2: 1229.974 ns/op
+Iteration   3: 1217.284 ns/op
+Iteration   4: 1212.226 ns/op
+Iteration   5: 1214.254 ns/op
+
+# Run progress: 93.33% complete, ETA 00:03:20
+# Fork: 4 of 5
+# Warmup Iteration   1: 1329.442 ns/op
+# Warmup Iteration   2: 1267.153 ns/op
+# Warmup Iteration   3: 1211.343 ns/op
+# Warmup Iteration   4: 1221.076 ns/op
+# Warmup Iteration   5: 1197.274 ns/op
+Iteration   1: 1206.860 ns/op
+Iteration   2: 1213.896 ns/op
+Iteration   3: 1205.812 ns/op
+Iteration   4: 1218.868 ns/op
+Iteration   5: 1210.603 ns/op
+
+# Run progress: 96.67% complete, ETA 00:01:40
+# Fork: 5 of 5
+# Warmup Iteration   1: 1336.657 ns/op
+# Warmup Iteration   2: 1278.872 ns/op
+# Warmup Iteration   3: 1217.046 ns/op
+# Warmup Iteration   4: 1205.858 ns/op
+# Warmup Iteration   5: 1210.791 ns/op
+Iteration   1: 1208.863 ns/op
+Iteration   2: 1207.826 ns/op
+Iteration   3: 1207.967 ns/op
+Iteration   4: 1211.308 ns/op
+Iteration   5: 1215.756 ns/op
+
+
+Result "com.kenfogel.performance.loaders.MapTests_jmh.do06TreeMapSearch":
+  1210.516 ±(99.9%) 6.591 ns/op [Average]
+  (min, avg, max) = (1194.491, 1210.516, 1229.974), stdev = 8.798
+  CI (99.9%): [1203.926, 1217.107] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:50:10
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark                       Mode  Cnt       Score      Error  Units
+MapTests_jmh.do01LoadHashMap    avgt   25   24163.917 ±  385.629  ns/op
+MapTests_jmh.do02AddToHashMap   avgt   25      44.241 ±    1.701  ns/op
+MapTests_jmh.do03HashMapSearch  avgt   25     274.537 ±    7.846  ns/op
+MapTests_jmh.do04LoadTreeMap    avgt   25  113173.980 ± 1440.085  ns/op
+MapTests_jmh.do05AddToTreeMap   avgt   25     158.340 ±    5.500  ns/op
+MapTests_jmh.do06TreeMapSearch  avgt   25    1210.516 ±    6.591  ns/op

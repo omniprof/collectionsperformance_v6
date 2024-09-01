@@ -113,7 +113,7 @@ public class SequenceTests_jmh {
     @Benchmark
     public void do02bAccessFirstElementArray(StateValues state) {
         // Access first element
-        String string = state.array0[0];
+        state.string = state.array0[0];
     }
 
     @Benchmark
