@@ -16,12 +16,12 @@
         <!-- Java source/target to use for compilation. -->
         <java.target>21</java.target>
         <!-- Name of the benchmark Uber-JAR to generate. -->
-        <uberjar.name>javazone</uberjar.name>
+        <uberjar.name>benchmarks</uberjar.name>
 
         <!-- Run the Swing version -->
-<!--        <exec.mainClass>com.kenfogel.performance.CollectionPerformanceApp</exec.mainClass>-->
+        <exec.mainClass>com.kenfogel.performance.CollectionPerformanceApp</exec.mainClass>
         <!-- Run the JMH version -->
-                <exec.mainClass>com.kenfogel.performance.CollectionPerformanceApp_JMH</exec.mainClass>
+<!--                <exec.mainClass>com.kenfogel.performance.CollectionPerformanceApp_JMH</exec.mainClass>-->
 
         <skiptests>true</skiptests>
         <maven.compiler.release>${java.target}</maven.compiler.release>
@@ -46,7 +46,6 @@
     </dependencies>
 
     <build>
-        <defaultGoal>clean install</defaultGoal>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

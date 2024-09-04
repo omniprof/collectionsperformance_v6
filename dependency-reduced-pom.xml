@@ -7,7 +7,6 @@
   <version>6.0</version>
   <description>Benchmark for collections</description>
   <build>
-    <defaultGoal>clean install</defaultGoal>
     <pluginManagement>
       <plugins>
         <plugin>
@@ -92,8 +91,8 @@
   <properties>
     <jmh.version>1.37</jmh.version>
     <maven.compiler.release>${java.target}</maven.compiler.release>
-    <exec.mainClass>com.kenfogel.performance.CollectionPerformanceApp_JMH</exec.mainClass>
-    <uberjar.name>javazone</uberjar.name>
+    <exec.mainClass>com.kenfogel.performance.CollectionPerformanceApp</exec.mainClass>
+    <uberjar.name>benchmarks</uberjar.name>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <skiptests>true</skiptests>
     <java.target>21</java.target>
