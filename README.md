@@ -6,6 +6,6 @@ mvn install:install-file -Dfile=[Where you placed the project]\collectionsperfor
 
 Change the -Dfile value to show the full path to where you stored the Dictionary.jar file.
 
-In the Collections Performance V6 project are the JavaZone slides.
+In the Collections Performance V6 project in the Docs folder are the JavaZone slides.
 
 

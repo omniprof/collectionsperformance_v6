@@ -1,0 +1,1973 @@
+Dell XPS 9343 Intel Core i7-5500U/2 core @ 2.4Ghz with 8GB Ram
+Windows 10 Education
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.kenfogel.performance.loaders.SequenceTests_jmh.do02aLoadArray
+
+# Run progress: 0.00% complete, ETA 03:11:40
+# Fork: 1 of 5
+# Warmup Iteration   1: 3979.658 ns/op
+# Warmup Iteration   2: 3556.464 ns/op
+# Warmup Iteration   3: 3283.255 ns/op
+# Warmup Iteration   4: 3760.996 ns/op
+# Warmup Iteration   5: 3850.109 ns/op
+Iteration   1: 3780.689 ns/op
+Iteration   2: 3777.427 ns/op
+Iteration   3: 3806.041 ns/op
+Iteration   4: 3756.714 ns/op
+Iteration   5: 3774.094 ns/op
+
+# Run progress: 0.87% complete, ETA 03:11:33
+# Fork: 2 of 5
+# Warmup Iteration   1: 3746.107 ns/op
+# Warmup Iteration   2: 3574.012 ns/op
+# Warmup Iteration   3: 3270.797 ns/op
+# Warmup Iteration   4: 3656.778 ns/op
+# Warmup Iteration   5: 3646.920 ns/op
+Iteration   1: 3814.268 ns/op
+Iteration   2: 3700.334 ns/op
+Iteration   3: 3789.741 ns/op
+Iteration   4: 3888.813 ns/op
+Iteration   5: 3819.929 ns/op
+
+# Run progress: 1.74% complete, ETA 03:09:42
+# Fork: 3 of 5
+# Warmup Iteration   1: 3758.838 ns/op
+# Warmup Iteration   2: 3449.799 ns/op
+# Warmup Iteration   3: 3520.628 ns/op
+# Warmup Iteration   4: 4215.170 ns/op
+# Warmup Iteration   5: 3789.756 ns/op
+Iteration   1: 4233.522 ns/op
+Iteration   2: 3835.035 ns/op
+Iteration   3: 3858.307 ns/op
+Iteration   4: 3783.350 ns/op
+Iteration   5: 4178.340 ns/op
+
+# Run progress: 2.61% complete, ETA 03:07:58
+# Fork: 4 of 5
+# Warmup Iteration   1: 3788.245 ns/op
+# Warmup Iteration   2: 3461.885 ns/op
+# Warmup Iteration   3: 3410.179 ns/op
+# Warmup Iteration   4: 3813.036 ns/op
+# Warmup Iteration   5: 3874.562 ns/op
+Iteration   1: 3869.195 ns/op
+Iteration   2: 4020.240 ns/op
+Iteration   3: 3667.159 ns/op
+Iteration   4: 3745.955 ns/op
+Iteration   5: 3812.351 ns/op
+
+# Run progress: 3.48% complete, ETA 03:06:17
+# Fork: 5 of 5
+# Warmup Iteration   1: 3631.033 ns/op
+# Warmup Iteration   2: 3436.721 ns/op
+# Warmup Iteration   3: 3463.399 ns/op
+# Warmup Iteration   4: 3796.659 ns/op
+# Warmup Iteration   5: 3711.148 ns/op
+Iteration   1: 3797.184 ns/op
+Iteration   2: 3771.325 ns/op
+Iteration   3: 3793.326 ns/op
+Iteration   4: 3725.418 ns/op
+Iteration   5: 3760.645 ns/op
+
+
+Result "com.kenfogel.performance.loaders.SequenceTests_jmh.do02aLoadArray":
+  3830.376 ±(99.9%) 98.729 ns/op [Average]
+  (min, avg, max) = (3667.159, 3830.376, 4233.522), stdev = 131.800
+  CI (99.9%): [3731.647, 3929.105] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.kenfogel.performance.loaders.SequenceTests_jmh.do02bAccessFirstElementArray
+
+# Run progress: 4.35% complete, ETA 03:04:35
+# Fork: 1 of 5
+# Warmup Iteration   1: 345.483 ns/op
+# Warmup Iteration   2: 278.140 ns/op
+# Warmup Iteration   3: 161.373 ns/op
+# Warmup Iteration   4: 118.310 ns/op
+# Warmup Iteration   5: 112.538 ns/op
+Iteration   1: 111.344 ns/op
+Iteration   2: 108.783 ns/op
+Iteration   3: 112.264 ns/op
+Iteration   4: 102.081 ns/op
+Iteration   5: 105.199 ns/op
+
+# Run progress: 5.22% complete, ETA 03:02:54
+# Fork: 2 of 5
+# Warmup Iteration   1: 348.994 ns/op
+# Warmup Iteration   2: 280.230 ns/op
+# Warmup Iteration   3: 139.203 ns/op
+# Warmup Iteration   4: 95.359 ns/op
+# Warmup Iteration   5: 97.045 ns/op
+Iteration   1: 99.733 ns/op
+Iteration   2: 94.786 ns/op
+Iteration   3: 96.818 ns/op
+Iteration   4: 92.985 ns/op
+Iteration   5: 97.161 ns/op
+
+# Run progress: 6.09% complete, ETA 03:01:14
+# Fork: 3 of 5
+# Warmup Iteration   1: 336.090 ns/op
+# Warmup Iteration   2: 227.704 ns/op
+# Warmup Iteration   3: 121.884 ns/op
+# Warmup Iteration   4: 100.159 ns/op
+# Warmup Iteration   5: 100.050 ns/op
+Iteration   1: 128.769 ns/op
+Iteration   2: 101.204 ns/op
+Iteration   3: 93.153 ns/op
+Iteration   4: 114.953 ns/op
+Iteration   5: 106.607 ns/op
+
+# Run progress: 6.96% complete, ETA 02:59:32
+# Fork: 4 of 5
+# Warmup Iteration   1: 409.619 ns/op
+# Warmup Iteration   2: 327.236 ns/op
+# Warmup Iteration   3: 156.373 ns/op
+# Warmup Iteration   4: 122.368 ns/op
+# Warmup Iteration   5: 112.112 ns/op
+Iteration   1: 111.325 ns/op
+Iteration   2: 103.511 ns/op
+Iteration   3: 122.737 ns/op
+Iteration   4: 99.879 ns/op
+Iteration   5: 102.109 ns/op
+
+# Run progress: 7.83% complete, ETA 02:57:51
+# Fork: 5 of 5
+# Warmup Iteration   1: 351.289 ns/op
+# Warmup Iteration   2: 308.861 ns/op
+# Warmup Iteration   3: 122.108 ns/op
+# Warmup Iteration   4: 97.049 ns/op
+# Warmup Iteration   5: 97.869 ns/op
+Iteration   1: 96.213 ns/op
+Iteration   2: 97.177 ns/op
+Iteration   3: 97.932 ns/op
+Iteration   4: 95.901 ns/op
+Iteration   5: 97.592 ns/op
+
+
+Result "com.kenfogel.performance.loaders.SequenceTests_jmh.do02bAccessFirstElementArray":
+  103.608 ±(99.9%) 6.857 ns/op [Average]
+  (min, avg, max) = (92.985, 103.608, 128.769), stdev = 9.154
+  CI (99.9%): [96.751, 110.466] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.kenfogel.performance.loaders.SequenceTests_jmh.do02cAccessLastElementArray
+
+# Run progress: 8.70% complete, ETA 02:56:11
+# Fork: 1 of 5
+# Warmup Iteration   1: 316.587 ns/op
+# Warmup Iteration   2: 232.983 ns/op
+# Warmup Iteration   3: 125.350 ns/op
+# Warmup Iteration   4: 94.176 ns/op
+# Warmup Iteration   5: 95.263 ns/op
+Iteration   1: 93.820 ns/op
+Iteration   2: 95.278 ns/op
+Iteration   3: 94.939 ns/op
+Iteration   4: 98.394 ns/op
+Iteration   5: 93.817 ns/op
+
+# Run progress: 9.57% complete, ETA 02:54:31
+# Fork: 2 of 5
+# Warmup Iteration   1: 319.683 ns/op
+# Warmup Iteration   2: 238.874 ns/op
+# Warmup Iteration   3: 123.976 ns/op
+# Warmup Iteration   4: 93.276 ns/op
+# Warmup Iteration   5: 92.087 ns/op
+Iteration   1: 91.138 ns/op
+Iteration   2: 94.152 ns/op
+Iteration   3: 91.709 ns/op
+Iteration   4: 94.378 ns/op
+Iteration   5: 92.949 ns/op
+
+# Run progress: 10.43% complete, ETA 02:52:49
+# Fork: 3 of 5
+# Warmup Iteration   1: 341.687 ns/op
+# Warmup Iteration   2: 225.174 ns/op
+# Warmup Iteration   3: 121.506 ns/op
+# Warmup Iteration   4: 90.996 ns/op
+# Warmup Iteration   5: 90.598 ns/op
+Iteration   1: 91.810 ns/op
+Iteration   2: 90.401 ns/op
+Iteration   3: 90.442 ns/op
+Iteration   4: 90.709 ns/op
+Iteration   5: 92.793 ns/op
+
+# Run progress: 11.30% complete, ETA 02:51:09
+# Fork: 4 of 5
+# Warmup Iteration   1: 321.559 ns/op
+# Warmup Iteration   2: 249.478 ns/op
+# Warmup Iteration   3: 135.343 ns/op
+# Warmup Iteration   4: 94.056 ns/op
+# Warmup Iteration   5: 94.981 ns/op
+Iteration   1: 95.735 ns/op
+Iteration   2: 95.653 ns/op
+Iteration   3: 97.423 ns/op
+Iteration   4: 96.109 ns/op
+Iteration   5: 95.780 ns/op
+
+# Run progress: 12.17% complete, ETA 02:49:28
+# Fork: 5 of 5
+# Warmup Iteration   1: 326.834 ns/op
+# Warmup Iteration   2: 221.712 ns/op
+# Warmup Iteration   3: 121.275 ns/op
+# Warmup Iteration   4: 98.883 ns/op
+# Warmup Iteration   5: 96.840 ns/op
+Iteration   1: 97.859 ns/op
+Iteration   2: 98.243 ns/op
+Iteration   3: 97.664 ns/op
+Iteration   4: 98.752 ns/op
+Iteration   5: 99.159 ns/op
+
+
+Result "com.kenfogel.performance.loaders.SequenceTests_jmh.do02cAccessLastElementArray":
+  94.764 ±(99.9%) 2.081 ns/op [Average]
+  (min, avg, max) = (90.401, 94.764, 99.159), stdev = 2.778
+  CI (99.9%): [92.683, 96.846] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.kenfogel.performance.loaders.SequenceTests_jmh.do02dAccessMiddleElementArray
+
+# Run progress: 13.04% complete, ETA 02:47:47
+# Fork: 1 of 5
+# Warmup Iteration   1: 336.330 ns/op
+# Warmup Iteration   2: 247.795 ns/op
+# Warmup Iteration   3: 134.782 ns/op
+# Warmup Iteration   4: 93.497 ns/op
+# Warmup Iteration   5: 93.513 ns/op
+Iteration   1: 93.866 ns/op
+Iteration   2: 93.520 ns/op
+Iteration   3: 92.687 ns/op
+Iteration   4: 93.844 ns/op
+Iteration   5: 94.845 ns/op
+
+# Run progress: 13.91% complete, ETA 02:46:06
+# Fork: 2 of 5
+# Warmup Iteration   1: 319.547 ns/op
+# Warmup Iteration   2: 227.642 ns/op
+# Warmup Iteration   3: 130.721 ns/op
+# Warmup Iteration   4: 99.924 ns/op
+# Warmup Iteration   5: 98.556 ns/op
+Iteration   1: 109.202 ns/op
+Iteration   2: 129.680 ns/op
+Iteration   3: 88.182 ns/op
+Iteration   4: 93.463 ns/op
+Iteration   5: 90.704 ns/op
+
+# Run progress: 14.78% complete, ETA 02:44:25
+# Fork: 3 of 5
+# Warmup Iteration   1: 358.444 ns/op
+# Warmup Iteration   2: 251.233 ns/op
+# Warmup Iteration   3: 141.628 ns/op
+# Warmup Iteration   4: 95.936 ns/op
+# Warmup Iteration   5: 96.199 ns/op
+Iteration   1: 96.638 ns/op
+Iteration   2: 101.078 ns/op
+Iteration   3: 108.593 ns/op
+Iteration   4: 113.232 ns/op
+Iteration   5: 114.981 ns/op
+
+# Run progress: 15.65% complete, ETA 02:42:44
+# Fork: 4 of 5
+# Warmup Iteration   1: 396.179 ns/op
+# Warmup Iteration   2: 310.421 ns/op
+# Warmup Iteration   3: 171.874 ns/op
+# Warmup Iteration   4: 121.048 ns/op
+# Warmup Iteration   5: 110.885 ns/op
+Iteration   1: 113.641 ns/op
+Iteration   2: 113.857 ns/op
+Iteration   3: 114.511 ns/op
+Iteration   4: 109.334 ns/op
+Iteration   5: 105.043 ns/op
+
+# Run progress: 16.52% complete, ETA 02:41:03
+# Fork: 5 of 5
+# Warmup Iteration   1: 377.897 ns/op
+# Warmup Iteration   2: 315.886 ns/op
+# Warmup Iteration   3: 176.223 ns/op
+# Warmup Iteration   4: 126.044 ns/op
+# Warmup Iteration   5: 110.191 ns/op
+Iteration   1: 108.627 ns/op
+Iteration   2: 109.920 ns/op
+Iteration   3: 111.499 ns/op
+Iteration   4: 109.166 ns/op
+Iteration   5: 106.122 ns/op
+
+
+Result "com.kenfogel.performance.loaders.SequenceTests_jmh.do02dAccessMiddleElementArray":
+  104.650 ±(99.9%) 7.653 ns/op [Average]
+  (min, avg, max) = (88.182, 104.650, 129.680), stdev = 10.217
+  CI (99.9%): [96.996, 112.303] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.kenfogel.performance.loaders.SequenceTests_jmh.do03aLoadArrayList
+
+# Run progress: 17.39% complete, ETA 02:39:22
+# Fork: 1 of 5
+# Warmup Iteration   1: 5794.708 ns/op
+# Warmup Iteration   2: 5413.858 ns/op
+# Warmup Iteration   3: 5259.226 ns/op
+# Warmup Iteration   4: 7685.502 ns/op
+# Warmup Iteration   5: 7323.810 ns/op
+Iteration   1: 7036.384 ns/op
+Iteration   2: 7225.153 ns/op
+Iteration   3: 7005.686 ns/op
+Iteration   4: 7028.051 ns/op
+Iteration   5: 7043.322 ns/op
+
+# Run progress: 18.26% complete, ETA 02:37:42
+# Fork: 2 of 5
+# Warmup Iteration   1: 5764.923 ns/op
+# Warmup Iteration   2: 5505.870 ns/op
+# Warmup Iteration   3: 5656.673 ns/op
+# Warmup Iteration   4: 7268.080 ns/op
+# Warmup Iteration   5: 7261.370 ns/op
+Iteration   1: 7169.813 ns/op
+Iteration   2: 7348.680 ns/op
+Iteration   3: 7287.136 ns/op
+Iteration   4: 7203.250 ns/op
+Iteration   5: 7245.168 ns/op
+
+# Run progress: 19.13% complete, ETA 02:36:01
+# Fork: 3 of 5
+# Warmup Iteration   1: 6015.420 ns/op
+# Warmup Iteration   2: 5723.081 ns/op
+# Warmup Iteration   3: 5765.526 ns/op
+# Warmup Iteration   4: 7169.198 ns/op
+# Warmup Iteration   5: 7228.393 ns/op
+Iteration   1: 7240.801 ns/op
+Iteration   2: 6998.229 ns/op
+Iteration   3: 7146.363 ns/op
+Iteration   4: 7183.950 ns/op
+Iteration   5: 7206.707 ns/op
+
+# Run progress: 20.00% complete, ETA 02:34:20
+# Fork: 4 of 5
+# Warmup Iteration   1: 5723.626 ns/op
+# Warmup Iteration   2: 5502.816 ns/op
+# Warmup Iteration   3: 5677.495 ns/op
+# Warmup Iteration   4: 7110.076 ns/op
+# Warmup Iteration   5: 7172.789 ns/op
+Iteration   1: 7155.388 ns/op
+Iteration   2: 7210.343 ns/op
+Iteration   3: 7226.032 ns/op
+Iteration   4: 7300.962 ns/op
+Iteration   5: 7247.713 ns/op
+
+# Run progress: 20.87% complete, ETA 02:32:40
+# Fork: 5 of 5
+# Warmup Iteration   1: 5863.658 ns/op
+# Warmup Iteration   2: 5516.605 ns/op
+# Warmup Iteration   3: 5581.036 ns/op
+# Warmup Iteration   4: 7082.755 ns/op
+# Warmup Iteration   5: 7117.590 ns/op
+Iteration   1: 7080.727 ns/op
+Iteration   2: 7209.061 ns/op
+Iteration   3: 7101.025 ns/op
+Iteration   4: 7116.564 ns/op
+Iteration   5: 7405.016 ns/op
+
+
+Result "com.kenfogel.performance.loaders.SequenceTests_jmh.do03aLoadArrayList":
+  7176.861 ±(99.9%) 79.811 ns/op [Average]
+  (min, avg, max) = (6998.229, 7176.861, 7405.016), stdev = 106.546
+  CI (99.9%): [7097.050, 7256.672] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.kenfogel.performance.loaders.SequenceTests_jmh.do03bAccessFirstElementArrayList
+
+# Run progress: 21.74% complete, ETA 02:30:59
+# Fork: 1 of 5
+# Warmup Iteration   1: 355.217 ns/op
+# Warmup Iteration   2: 253.249 ns/op
+# Warmup Iteration   3: 153.725 ns/op
+# Warmup Iteration   4: 105.072 ns/op
+# Warmup Iteration   5: 107.519 ns/op
+Iteration   1: 96.929 ns/op
+Iteration   2: 139.482 ns/op
+Iteration   3: 130.698 ns/op
+Iteration   4: 98.649 ns/op
+Iteration   5: 99.591 ns/op
+
+# Run progress: 22.61% complete, ETA 02:29:19
+# Fork: 2 of 5
+# Warmup Iteration   1: 351.104 ns/op
+# Warmup Iteration   2: 291.196 ns/op
+# Warmup Iteration   3: 205.182 ns/op
+# Warmup Iteration   4: 132.229 ns/op
+# Warmup Iteration   5: 124.445 ns/op
+Iteration   1: 131.944 ns/op
+Iteration   2: 121.075 ns/op
+Iteration   3: 122.017 ns/op
+Iteration   4: 127.980 ns/op
+Iteration   5: 125.781 ns/op
+
+# Run progress: 23.48% complete, ETA 02:27:38
+# Fork: 3 of 5
+# Warmup Iteration   1: 496.863 ns/op
+# Warmup Iteration   2: 388.755 ns/op
+# Warmup Iteration   3: 206.998 ns/op
+# Warmup Iteration   4: 153.979 ns/op
+# Warmup Iteration   5: 124.346 ns/op
+Iteration   1: 132.181 ns/op
+Iteration   2: 125.301 ns/op
+Iteration   3: 127.950 ns/op
+Iteration   4: 132.526 ns/op
+Iteration   5: 134.841 ns/op
+
+# Run progress: 24.35% complete, ETA 02:25:57
+# Fork: 4 of 5
+# Warmup Iteration   1: 387.107 ns/op
+# Warmup Iteration   2: 293.224 ns/op
+# Warmup Iteration   3: 204.176 ns/op
+# Warmup Iteration   4: 122.083 ns/op
+# Warmup Iteration   5: 121.340 ns/op
+Iteration   1: 122.313 ns/op
+Iteration   2: 138.787 ns/op
+Iteration   3: 113.160 ns/op
+Iteration   4: 110.434 ns/op
+Iteration   5: 101.499 ns/op
+
+# Run progress: 25.22% complete, ETA 02:24:17
+# Fork: 5 of 5
+# Warmup Iteration   1: 452.413 ns/op
+# Warmup Iteration   2: 300.762 ns/op
+# Warmup Iteration   3: 182.571 ns/op
+# Warmup Iteration   4: 110.588 ns/op
+# Warmup Iteration   5: 125.570 ns/op
+Iteration   1: 129.668 ns/op
+Iteration   2: 115.278 ns/op
+Iteration   3: 126.841 ns/op
+Iteration   4: 125.595 ns/op
+Iteration   5: 119.087 ns/op
+
+
+Result "com.kenfogel.performance.loaders.SequenceTests_jmh.do03bAccessFirstElementArrayList":
+  121.984 ±(99.9%) 9.295 ns/op [Average]
+  (min, avg, max) = (96.929, 121.984, 139.482), stdev = 12.409
+  CI (99.9%): [112.689, 131.280] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.kenfogel.performance.loaders.SequenceTests_jmh.do03cAccessLastElementArrayList
+
+# Run progress: 26.09% complete, ETA 02:22:36
+# Fork: 1 of 5
+# Warmup Iteration   1: 388.247 ns/op
+# Warmup Iteration   2: 340.513 ns/op
+# Warmup Iteration   3: 176.996 ns/op
+# Warmup Iteration   4: 121.152 ns/op
+# Warmup Iteration   5: 109.951 ns/op
+Iteration   1: 114.930 ns/op
+Iteration   2: 111.822 ns/op
+Iteration   3: 112.518 ns/op
+Iteration   4: 110.543 ns/op
+Iteration   5: 113.574 ns/op
+
+# Run progress: 26.96% complete, ETA 02:20:55
+# Fork: 2 of 5
+# Warmup Iteration   1: 442.399 ns/op
+# Warmup Iteration   2: 332.060 ns/op
+# Warmup Iteration   3: 173.726 ns/op
+# Warmup Iteration   4: 103.508 ns/op
+# Warmup Iteration   5: 100.647 ns/op
+Iteration   1: 102.277 ns/op
+Iteration   2: 106.321 ns/op
+Iteration   3: 104.052 ns/op
+Iteration   4: 103.645 ns/op
+Iteration   5: 104.870 ns/op
+
+# Run progress: 27.83% complete, ETA 02:19:15
+# Fork: 3 of 5
+# Warmup Iteration   1: 429.974 ns/op
+# Warmup Iteration   2: 347.048 ns/op
+# Warmup Iteration   3: 207.927 ns/op
+# Warmup Iteration   4: 122.558 ns/op
+# Warmup Iteration   5: 107.711 ns/op
+Iteration   1: 109.323 ns/op
+Iteration   2: 107.674 ns/op
+Iteration   3: 106.128 ns/op
+Iteration   4: 108.059 ns/op
+Iteration   5: 111.356 ns/op
+
+# Run progress: 28.70% complete, ETA 02:17:34
+# Fork: 4 of 5
+# Warmup Iteration   1: 413.983 ns/op
+# Warmup Iteration   2: 324.042 ns/op
+# Warmup Iteration   3: 187.060 ns/op
+# Warmup Iteration   4: 108.687 ns/op
+# Warmup Iteration   5: 110.939 ns/op
+Iteration   1: 112.164 ns/op
+Iteration   2: 110.839 ns/op
+Iteration   3: 110.765 ns/op
+Iteration   4: 108.710 ns/op
+Iteration   5: 110.594 ns/op
+
+# Run progress: 29.57% complete, ETA 02:15:53
+# Fork: 5 of 5
+# Warmup Iteration   1: 442.238 ns/op
+# Warmup Iteration   2: 350.354 ns/op
+# Warmup Iteration   3: 190.734 ns/op
+# Warmup Iteration   4: 122.304 ns/op
+# Warmup Iteration   5: 107.544 ns/op
+Iteration   1: 106.392 ns/op
+Iteration   2: 109.457 ns/op
+Iteration   3: 141.930 ns/op
+Iteration   4: 97.769 ns/op
+Iteration   5: 104.176 ns/op
+
+
+Result "com.kenfogel.performance.loaders.SequenceTests_jmh.do03cAccessLastElementArrayList":
+  109.595 ±(99.9%) 5.860 ns/op [Average]
+  (min, avg, max) = (97.769, 109.595, 141.930), stdev = 7.824
+  CI (99.9%): [103.735, 115.456] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.kenfogel.performance.loaders.SequenceTests_jmh.do03dAccessMiddleElementArrayList
+
+# Run progress: 30.43% complete, ETA 02:14:12
+# Fork: 1 of 5
+# Warmup Iteration   1: 456.285 ns/op
+# Warmup Iteration   2: 386.886 ns/op
+# Warmup Iteration   3: 270.138 ns/op
+# Warmup Iteration   4: 152.512 ns/op
+# Warmup Iteration   5: 138.057 ns/op
+Iteration   1: 142.237 ns/op
+Iteration   2: 123.808 ns/op
+Iteration   3: 133.917 ns/op
+Iteration   4: 132.660 ns/op
+Iteration   5: 113.871 ns/op
+
+# Run progress: 31.30% complete, ETA 02:12:32
+# Fork: 2 of 5
+# Warmup Iteration   1: 466.770 ns/op
+# Warmup Iteration   2: 381.868 ns/op
+# Warmup Iteration   3: 236.479 ns/op
+# Warmup Iteration   4: 160.080 ns/op
+# Warmup Iteration   5: 139.484 ns/op
+Iteration   1: 140.833 ns/op
+Iteration   2: 137.409 ns/op
+Iteration   3: 134.076 ns/op
+Iteration   4: 126.153 ns/op
+Iteration   5: 124.815 ns/op
+
+# Run progress: 32.17% complete, ETA 02:10:51
+# Fork: 3 of 5
+# Warmup Iteration   1: 494.469 ns/op
+# Warmup Iteration   2: 389.062 ns/op
+# Warmup Iteration   3: 233.635 ns/op
+# Warmup Iteration   4: 138.589 ns/op
+# Warmup Iteration   5: 123.837 ns/op
+Iteration   1: 137.175 ns/op
+Iteration   2: 142.359 ns/op
+Iteration   3: 139.073 ns/op
+Iteration   4: 137.488 ns/op
+Iteration   5: 139.211 ns/op
+
+# Run progress: 33.04% complete, ETA 02:09:10
+# Fork: 4 of 5
+# Warmup Iteration   1: 470.369 ns/op
+# Warmup Iteration   2: 370.138 ns/op
+# Warmup Iteration   3: 203.448 ns/op
+# Warmup Iteration   4: 134.763 ns/op
+# Warmup Iteration   5: 109.879 ns/op
+Iteration   1: 105.992 ns/op
+Iteration   2: 106.358 ns/op
+Iteration   3: 115.322 ns/op
+Iteration   4: 129.952 ns/op
+Iteration   5: 108.119 ns/op
+
+# Run progress: 33.91% complete, ETA 02:07:30
+# Fork: 5 of 5
+# Warmup Iteration   1: 342.733 ns/op
+# Warmup Iteration   2: 261.075 ns/op
+# Warmup Iteration   3: 162.869 ns/op
+# Warmup Iteration   4: 101.097 ns/op
+# Warmup Iteration   5: 102.632 ns/op
+Iteration   1: 103.271 ns/op
+Iteration   2: 99.547 ns/op
+Iteration   3: 100.924 ns/op
+Iteration   4: 101.297 ns/op
+Iteration   5: 101.046 ns/op
+
+
+Result "com.kenfogel.performance.loaders.SequenceTests_jmh.do03dAccessMiddleElementArrayList":
+  123.077 ±(99.9%) 11.754 ns/op [Average]
+  (min, avg, max) = (99.547, 123.077, 142.359), stdev = 15.691
+  CI (99.9%): [111.322, 134.831] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.kenfogel.performance.loaders.SequenceTests_jmh.do03eInsertFirstElementArrayList
+
+# Run progress: 34.78% complete, ETA 02:05:49
+# Fork: 1 of 5
+# Warmup Iteration   1: 917.131 ns/op
+# Warmup Iteration   2: 790.689 ns/op
+# Warmup Iteration   3: 658.468 ns/op
+# Warmup Iteration   4: 574.404 ns/op
+# Warmup Iteration   5: 566.250 ns/op
+Iteration   1: 619.912 ns/op
+Iteration   2: 577.934 ns/op
+Iteration   3: 574.298 ns/op
+Iteration   4: 581.204 ns/op
+Iteration   5: 583.755 ns/op
+
+# Run progress: 35.65% complete, ETA 02:04:09
+# Fork: 2 of 5
+# Warmup Iteration   1: 853.661 ns/op
+# Warmup Iteration   2: 764.574 ns/op
+# Warmup Iteration   3: 680.336 ns/op
+# Warmup Iteration   4: 541.245 ns/op
+# Warmup Iteration   5: 549.632 ns/op
+Iteration   1: 551.303 ns/op
+Iteration   2: 548.496 ns/op
+Iteration   3: 542.250 ns/op
+Iteration   4: 551.463 ns/op
+Iteration   5: 525.487 ns/op
+
+# Run progress: 36.52% complete, ETA 02:02:28
+# Fork: 3 of 5
+# Warmup Iteration   1: 834.667 ns/op
+# Warmup Iteration   2: 731.997 ns/op
+# Warmup Iteration   3: 625.766 ns/op
+# Warmup Iteration   4: 521.707 ns/op
+# Warmup Iteration   5: 521.147 ns/op
+Iteration   1: 525.595 ns/op
+Iteration   2: 511.854 ns/op
+Iteration   3: 521.098 ns/op
+Iteration   4: 514.690 ns/op
+Iteration   5: 520.997 ns/op
+
+# Run progress: 37.39% complete, ETA 02:00:47
+# Fork: 4 of 5
+# Warmup Iteration   1: 920.691 ns/op
+# Warmup Iteration   2: 781.559 ns/op
+# Warmup Iteration   3: 661.720 ns/op
+# Warmup Iteration   4: 579.032 ns/op
+# Warmup Iteration   5: 575.858 ns/op
+Iteration   1: 585.193 ns/op
+Iteration   2: 592.414 ns/op
+Iteration   3: 758.829 ns/op
+Iteration   4: 853.146 ns/op
+Iteration   5: 583.221 ns/op
+
+# Run progress: 38.26% complete, ETA 01:59:07
+# Fork: 5 of 5
+# Warmup Iteration   1: 840.658 ns/op
+# Warmup Iteration   2: 765.381 ns/op
+# Warmup Iteration   3: 642.111 ns/op
+# Warmup Iteration   4: 539.497 ns/op
+# Warmup Iteration   5: 612.007 ns/op
+Iteration   1: 548.259 ns/op
+Iteration   2: 537.032 ns/op
+Iteration   3: 535.292 ns/op
+Iteration   4: 561.126 ns/op
+Iteration   5: 557.940 ns/op
+
+
+Result "com.kenfogel.performance.loaders.SequenceTests_jmh.do03eInsertFirstElementArrayList":
+  574.511 ±(99.9%) 57.051 ns/op [Average]
+  (min, avg, max) = (511.854, 574.511, 853.146), stdev = 76.162
+  CI (99.9%): [517.460, 631.563] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.kenfogel.performance.loaders.SequenceTests_jmh.do03fInsertLastElementArrayList
+
+# Run progress: 39.13% complete, ETA 01:57:26
+# Fork: 1 of 5
+# Warmup Iteration   1: 335.911 ns/op
+# Warmup Iteration   2: 269.429 ns/op
+# Warmup Iteration   3: 190.585 ns/op
+# Warmup Iteration   4: 88.299 ns/op
+# Warmup Iteration   5: 89.052 ns/op
+Iteration   1: 87.218 ns/op
+Iteration   2: 89.240 ns/op
+Iteration   3: 92.635 ns/op
+Iteration   4: 89.584 ns/op
+Iteration   5: 89.742 ns/op
+
+# Run progress: 40.00% complete, ETA 01:55:45
+# Fork: 2 of 5
+# Warmup Iteration   1: 386.388 ns/op
+# Warmup Iteration   2: 299.193 ns/op
+# Warmup Iteration   3: 218.351 ns/op
+# Warmup Iteration   4: 94.331 ns/op
+# Warmup Iteration   5: 96.251 ns/op
+Iteration   1: 99.531 ns/op
+Iteration   2: 91.282 ns/op
+Iteration   3: 91.117 ns/op
+Iteration   4: 90.033 ns/op
+Iteration   5: 95.061 ns/op
+
+# Run progress: 40.87% complete, ETA 01:54:05
+# Fork: 3 of 5
+# Warmup Iteration   1: 348.788 ns/op
+# Warmup Iteration   2: 279.940 ns/op
+# Warmup Iteration   3: 179.639 ns/op
+# Warmup Iteration   4: 89.355 ns/op
+# Warmup Iteration   5: 87.972 ns/op
+Iteration   1: 90.563 ns/op
+Iteration   2: 96.284 ns/op
+Iteration   3: 97.234 ns/op
+Iteration   4: 93.085 ns/op
+Iteration   5: 79.883 ns/op
+
+# Run progress: 41.74% complete, ETA 01:52:24
+# Fork: 4 of 5
+# Warmup Iteration   1: 278.247 ns/op
+# Warmup Iteration   2: 229.036 ns/op
+# Warmup Iteration   3: 137.301 ns/op
+# Warmup Iteration   4: 80.475 ns/op
+# Warmup Iteration   5: 78.743 ns/op
+Iteration   1: 80.187 ns/op
+Iteration   2: 79.693 ns/op
+Iteration   3: 79.671 ns/op
+Iteration   4: 79.062 ns/op
+Iteration   5: 80.396 ns/op
+
+# Run progress: 42.61% complete, ETA 01:50:43
+# Fork: 5 of 5
+# Warmup Iteration   1: 280.398 ns/op
+# Warmup Iteration   2: 239.601 ns/op
+# Warmup Iteration   3: 155.143 ns/op
+# Warmup Iteration   4: 78.459 ns/op
+# Warmup Iteration   5: 78.213 ns/op
+Iteration   1: 80.376 ns/op
+Iteration   2: 78.244 ns/op
+Iteration   3: 77.675 ns/op
+Iteration   4: 78.862 ns/op
+Iteration   5: 77.847 ns/op
+
+
+Result "com.kenfogel.performance.loaders.SequenceTests_jmh.do03fInsertLastElementArrayList":
+  86.580 ±(99.9%) 5.345 ns/op [Average]
+  (min, avg, max) = (77.675, 86.580, 99.531), stdev = 7.136
+  CI (99.9%): [81.235, 91.925] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.kenfogel.performance.loaders.SequenceTests_jmh.do03gInsertMiddleElementArrayList
+
+# Run progress: 43.48% complete, ETA 01:49:02
+# Fork: 1 of 5
+# Warmup Iteration   1: 689.725 ns/op
+# Warmup Iteration   2: 628.172 ns/op
+# Warmup Iteration   3: 524.914 ns/op
+# Warmup Iteration   4: 427.423 ns/op
+# Warmup Iteration   5: 448.342 ns/op
+Iteration   1: 437.479 ns/op
+Iteration   2: 440.007 ns/op
+Iteration   3: 437.985 ns/op
+Iteration   4: 443.211 ns/op
+Iteration   5: 432.090 ns/op
+
+# Run progress: 44.35% complete, ETA 01:47:22
+# Fork: 2 of 5
+# Warmup Iteration   1: 659.910 ns/op
+# Warmup Iteration   2: 563.166 ns/op
+# Warmup Iteration   3: 484.990 ns/op
+# Warmup Iteration   4: 417.802 ns/op
+# Warmup Iteration   5: 409.403 ns/op
+Iteration   1: 410.194 ns/op
+Iteration   2: 415.052 ns/op
+Iteration   3: 409.338 ns/op
+Iteration   4: 404.835 ns/op
+Iteration   5: 408.006 ns/op
+
+# Run progress: 45.22% complete, ETA 01:45:41
+# Fork: 3 of 5
+# Warmup Iteration   1: 664.403 ns/op
+# Warmup Iteration   2: 546.360 ns/op
+# Warmup Iteration   3: 480.588 ns/op
+# Warmup Iteration   4: 458.380 ns/op
+# Warmup Iteration   5: 523.590 ns/op
+Iteration   1: 563.264 ns/op
+Iteration   2: 414.983 ns/op
+Iteration   3: 410.566 ns/op
+Iteration   4: 771.007 ns/op
+Iteration   5: 446.286 ns/op
+
+# Run progress: 46.09% complete, ETA 01:44:00
+# Fork: 4 of 5
+# Warmup Iteration   1: 635.197 ns/op
+# Warmup Iteration   2: 572.970 ns/op
+# Warmup Iteration   3: 477.524 ns/op
+# Warmup Iteration   4: 432.946 ns/op
+# Warmup Iteration   5: 490.735 ns/op
+Iteration   1: 425.899 ns/op
+Iteration   2: 422.685 ns/op
+Iteration   3: 429.512 ns/op
+Iteration   4: 421.083 ns/op
+Iteration   5: 434.039 ns/op
+
+# Run progress: 46.96% complete, ETA 01:42:19
+# Fork: 5 of 5
+# Warmup Iteration   1: 697.425 ns/op
+# Warmup Iteration   2: 609.017 ns/op
+# Warmup Iteration   3: 499.888 ns/op
+# Warmup Iteration   4: 437.043 ns/op
+# Warmup Iteration   5: 446.389 ns/op
+Iteration   1: 434.279 ns/op
+Iteration   2: 449.052 ns/op
+Iteration   3: 443.411 ns/op
+Iteration   4: 436.102 ns/op
+Iteration   5: 439.911 ns/op
+
+
+Result "com.kenfogel.performance.loaders.SequenceTests_jmh.do03gInsertMiddleElementArrayList":
+  447.211 ±(99.9%) 55.328 ns/op [Average]
+  (min, avg, max) = (404.835, 447.211, 771.007), stdev = 73.861
+  CI (99.9%): [391.883, 502.539] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.kenfogel.performance.loaders.SequenceTests_jmh.do04aLoadDeque
+
+# Run progress: 47.83% complete, ETA 01:40:39
+# Fork: 1 of 5
+# Warmup Iteration   1: 4145.365 ns/op
+# Warmup Iteration   2: 4044.329 ns/op
+# Warmup Iteration   3: 3953.144 ns/op
+# Warmup Iteration   4: 3863.601 ns/op
+# Warmup Iteration   5: 3861.459 ns/op
+Iteration   1: 3852.992 ns/op
+Iteration   2: 3934.153 ns/op
+Iteration   3: 3870.334 ns/op
+Iteration   4: 3870.039 ns/op
+Iteration   5: 3847.504 ns/op
+
+# Run progress: 48.70% complete, ETA 01:38:58
+# Fork: 2 of 5
+# Warmup Iteration   1: 4145.241 ns/op
+# Warmup Iteration   2: 3965.116 ns/op
+# Warmup Iteration   3: 3851.384 ns/op
+# Warmup Iteration   4: 3832.272 ns/op
+# Warmup Iteration   5: 3765.535 ns/op
+Iteration   1: 3789.828 ns/op
+Iteration   2: 3748.596 ns/op
+Iteration   3: 3913.676 ns/op
+Iteration   4: 3805.207 ns/op
+Iteration   5: 3873.887 ns/op
+
+# Run progress: 49.57% complete, ETA 01:37:17
+# Fork: 3 of 5
+# Warmup Iteration   1: 4348.062 ns/op
+# Warmup Iteration   2: 4007.381 ns/op
+# Warmup Iteration   3: 3901.621 ns/op
+# Warmup Iteration   4: 3893.848 ns/op
+# Warmup Iteration   5: 3790.739 ns/op
+Iteration   1: 3932.189 ns/op
+Iteration   2: 3874.031 ns/op
+Iteration   3: 3811.118 ns/op
+Iteration   4: 3799.801 ns/op
+Iteration   5: 3853.303 ns/op
+
+# Run progress: 50.43% complete, ETA 01:35:37
+# Fork: 4 of 5
+# Warmup Iteration   1: 4338.059 ns/op
+# Warmup Iteration   2: 3972.936 ns/op
+# Warmup Iteration   3: 3918.823 ns/op
+# Warmup Iteration   4: 3872.397 ns/op
+# Warmup Iteration   5: 3851.481 ns/op
+Iteration   1: 3827.037 ns/op
+Iteration   2: 3910.357 ns/op
+Iteration   3: 3751.133 ns/op
+Iteration   4: 3902.137 ns/op
+Iteration   5: 3851.657 ns/op
+
+# Run progress: 51.30% complete, ETA 01:33:56
+# Fork: 5 of 5
+# Warmup Iteration   1: 4134.753 ns/op
+# Warmup Iteration   2: 3926.997 ns/op
+# Warmup Iteration   3: 3877.596 ns/op
+# Warmup Iteration   4: 3832.433 ns/op
+# Warmup Iteration   5: 3794.275 ns/op
+Iteration   1: 3810.915 ns/op
+Iteration   2: 3817.165 ns/op
+Iteration   3: 3892.399 ns/op
+Iteration   4: 3797.837 ns/op
+Iteration   5: 3865.211 ns/op
+
+
+Result "com.kenfogel.performance.loaders.SequenceTests_jmh.do04aLoadDeque":
+  3848.100 ±(99.9%) 38.608 ns/op [Average]
+  (min, avg, max) = (3748.596, 3848.100, 3934.153), stdev = 51.540
+  CI (99.9%): [3809.492, 3886.708] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.kenfogel.performance.loaders.SequenceTests_jmh.do04bAccessFirstElementDeque
+
+# Run progress: 52.17% complete, ETA 01:32:15
+# Fork: 1 of 5
+# Warmup Iteration   1: 284.050 ns/op
+# Warmup Iteration   2: 194.604 ns/op
+# Warmup Iteration   3: 133.479 ns/op
+# Warmup Iteration   4: 110.138 ns/op
+# Warmup Iteration   5: 102.622 ns/op
+Iteration   1: 102.080 ns/op
+Iteration   2: 100.486 ns/op
+Iteration   3: 100.450 ns/op
+Iteration   4: 98.664 ns/op
+Iteration   5: 100.229 ns/op
+
+# Run progress: 53.04% complete, ETA 01:30:34
+# Fork: 2 of 5
+# Warmup Iteration   1: 289.066 ns/op
+# Warmup Iteration   2: 209.011 ns/op
+# Warmup Iteration   3: 129.706 ns/op
+# Warmup Iteration   4: 91.738 ns/op
+# Warmup Iteration   5: 92.057 ns/op
+Iteration   1: 91.309 ns/op
+Iteration   2: 92.530 ns/op
+Iteration   3: 90.443 ns/op
+Iteration   4: 105.326 ns/op
+Iteration   5: 136.607 ns/op
+
+# Run progress: 53.91% complete, ETA 01:28:54
+# Fork: 3 of 5
+# Warmup Iteration   1: 280.377 ns/op
+# Warmup Iteration   2: 181.737 ns/op
+# Warmup Iteration   3: 116.714 ns/op
+# Warmup Iteration   4: 99.812 ns/op
+# Warmup Iteration   5: 94.128 ns/op
+Iteration   1: 92.424 ns/op
+Iteration   2: 91.120 ns/op
+Iteration   3: 89.659 ns/op
+Iteration   4: 98.445 ns/op
+Iteration   5: 93.524 ns/op
+
+# Run progress: 54.78% complete, ETA 01:27:13
+# Fork: 4 of 5
+# Warmup Iteration   1: 298.772 ns/op
+# Warmup Iteration   2: 204.994 ns/op
+# Warmup Iteration   3: 122.731 ns/op
+# Warmup Iteration   4: 102.165 ns/op
+# Warmup Iteration   5: 97.750 ns/op
+Iteration   1: 97.222 ns/op
+Iteration   2: 96.269 ns/op
+Iteration   3: 98.728 ns/op
+Iteration   4: 97.050 ns/op
+Iteration   5: 97.464 ns/op
+
+# Run progress: 55.65% complete, ETA 01:25:32
+# Fork: 5 of 5
+# Warmup Iteration   1: 270.255 ns/op
+# Warmup Iteration   2: 185.589 ns/op
+# Warmup Iteration   3: 114.826 ns/op
+# Warmup Iteration   4: 94.666 ns/op
+# Warmup Iteration   5: 92.530 ns/op
+Iteration   1: 93.128 ns/op
+Iteration   2: 93.784 ns/op
+Iteration   3: 94.324 ns/op
+Iteration   4: 91.974 ns/op
+Iteration   5: 94.672 ns/op
+
+
+Result "com.kenfogel.performance.loaders.SequenceTests_jmh.do04bAccessFirstElementDeque":
+  97.516 ±(99.9%) 6.804 ns/op [Average]
+  (min, avg, max) = (89.659, 97.516, 136.607), stdev = 9.084
+  CI (99.9%): [90.712, 104.321] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.kenfogel.performance.loaders.SequenceTests_jmh.do04cAccessLastElementDeque
+
+# Run progress: 56.52% complete, ETA 01:23:52
+# Fork: 1 of 5
+# Warmup Iteration   1: 297.877 ns/op
+# Warmup Iteration   2: 208.472 ns/op
+# Warmup Iteration   3: 122.933 ns/op
+# Warmup Iteration   4: 87.379 ns/op
+# Warmup Iteration   5: 86.879 ns/op
+Iteration   1: 89.637 ns/op
+Iteration   2: 88.598 ns/op
+Iteration   3: 87.973 ns/op
+Iteration   4: 87.882 ns/op
+Iteration   5: 87.555 ns/op
+
+# Run progress: 57.39% complete, ETA 01:22:11
+# Fork: 2 of 5
+# Warmup Iteration   1: 265.327 ns/op
+# Warmup Iteration   2: 181.005 ns/op
+# Warmup Iteration   3: 114.209 ns/op
+# Warmup Iteration   4: 85.586 ns/op
+# Warmup Iteration   5: 85.556 ns/op
+Iteration   1: 85.375 ns/op
+Iteration   2: 85.241 ns/op
+Iteration   3: 116.963 ns/op
+Iteration   4: 85.615 ns/op
+Iteration   5: 87.568 ns/op
+
+# Run progress: 58.26% complete, ETA 01:20:30
+# Fork: 3 of 5
+# Warmup Iteration   1: 274.298 ns/op
+# Warmup Iteration   2: 179.839 ns/op
+# Warmup Iteration   3: 115.762 ns/op
+# Warmup Iteration   4: 88.910 ns/op
+# Warmup Iteration   5: 89.227 ns/op
+Iteration   1: 89.047 ns/op
+Iteration   2: 88.912 ns/op
+Iteration   3: 88.264 ns/op
+Iteration   4: 88.728 ns/op
+Iteration   5: 88.110 ns/op
+
+# Run progress: 59.13% complete, ETA 01:18:50
+# Fork: 4 of 5
+# Warmup Iteration   1: 286.333 ns/op
+# Warmup Iteration   2: 197.880 ns/op
+# Warmup Iteration   3: 126.120 ns/op
+# Warmup Iteration   4: 87.880 ns/op
+# Warmup Iteration   5: 87.681 ns/op
+Iteration   1: 87.718 ns/op
+Iteration   2: 89.797 ns/op
+Iteration   3: 88.080 ns/op
+Iteration   4: 88.075 ns/op
+Iteration   5: 87.118 ns/op
+
+# Run progress: 60.00% complete, ETA 01:17:09
+# Fork: 5 of 5
+# Warmup Iteration   1: 261.512 ns/op
+# Warmup Iteration   2: 180.508 ns/op
+# Warmup Iteration   3: 118.946 ns/op
+# Warmup Iteration   4: 84.156 ns/op
+# Warmup Iteration   5: 85.042 ns/op
+Iteration   1: 83.652 ns/op
+Iteration   2: 82.749 ns/op
+Iteration   3: 83.440 ns/op
+Iteration   4: 83.511 ns/op
+Iteration   5: 83.754 ns/op
+
+
+Result "com.kenfogel.performance.loaders.SequenceTests_jmh.do04cAccessLastElementDeque":
+  88.134 ±(99.9%) 4.772 ns/op [Average]
+  (min, avg, max) = (82.749, 88.134, 116.963), stdev = 6.371
+  CI (99.9%): [83.362, 92.907] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.kenfogel.performance.loaders.SequenceTests_jmh.do04dInsertFirstElementDeque
+
+# Run progress: 60.87% complete, ETA 01:15:28
+# Fork: 1 of 5
+# Warmup Iteration   1: 269.439 ns/op
+# Warmup Iteration   2: 162.583 ns/op
+# Warmup Iteration   3: 103.846 ns/op
+# Warmup Iteration   4: 79.733 ns/op
+# Warmup Iteration   5: 80.164 ns/op
+Iteration   1: 81.822 ns/op
+Iteration   2: 80.123 ns/op
+Iteration   3: 79.531 ns/op
+Iteration   4: 79.348 ns/op
+Iteration   5: 205.590 ns/op
+
+# Run progress: 61.74% complete, ETA 01:13:47
+# Fork: 2 of 5
+# Warmup Iteration   1: 347.437 ns/op
+# Warmup Iteration   2: 167.629 ns/op
+# Warmup Iteration   3: 95.457 ns/op
+# Warmup Iteration   4: 210.625 ns/op
+# Warmup Iteration   5: 79.690 ns/op
+Iteration   1: 96.726 ns/op
+Iteration   2: 114.593 ns/op
+Iteration   3: 117.732 ns/op
+Iteration   4: 116.736 ns/op
+Iteration   5: 114.963 ns/op
+
+# Run progress: 62.61% complete, ETA 01:12:07
+# Fork: 3 of 5
+# Warmup Iteration   1: 655.497 ns/op
+# Warmup Iteration   2: 527.694 ns/op
+# Warmup Iteration   3: 180.497 ns/op
+# Warmup Iteration   4: 159.624 ns/op
+# Warmup Iteration   5: 128.813 ns/op
+Iteration   1: 134.339 ns/op
+Iteration   2: 130.629 ns/op
+Iteration   3: 131.505 ns/op
+Iteration   4: 134.539 ns/op
+Iteration   5: 134.265 ns/op
+
+# Run progress: 63.48% complete, ETA 01:10:26
+# Fork: 4 of 5
+# Warmup Iteration   1: 697.408 ns/op
+# Warmup Iteration   2: 560.780 ns/op
+# Warmup Iteration   3: 176.544 ns/op
+# Warmup Iteration   4: 155.336 ns/op
+# Warmup Iteration   5: 114.422 ns/op
+Iteration   1: 112.431 ns/op
+Iteration   2: 112.189 ns/op
+Iteration   3: 112.308 ns/op
+Iteration   4: 111.817 ns/op
+Iteration   5: 117.599 ns/op
+
+# Run progress: 64.35% complete, ETA 01:08:46
+# Fork: 5 of 5
+# Warmup Iteration   1: 698.593 ns/op
+# Warmup Iteration   2: 561.534 ns/op
+# Warmup Iteration   3: 184.659 ns/op
+# Warmup Iteration   4: 161.384 ns/op
+# Warmup Iteration   5: 118.057 ns/op
+Iteration   1: 116.703 ns/op
+Iteration   2: 115.695 ns/op
+Iteration   3: 120.765 ns/op
+Iteration   4: 118.055 ns/op
+Iteration   5: 117.784 ns/op
+
+
+Result "com.kenfogel.performance.loaders.SequenceTests_jmh.do04dInsertFirstElementDeque":
+  116.311 ±(99.9%) 18.783 ns/op [Average]
+  (min, avg, max) = (79.348, 116.311, 205.590), stdev = 25.075
+  CI (99.9%): [97.528, 135.095] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.kenfogel.performance.loaders.SequenceTests_jmh.do04eInsertLastElementDeque
+
+# Run progress: 65.22% complete, ETA 01:07:05
+# Fork: 1 of 5
+# Warmup Iteration   1: 568.866 ns/op
+# Warmup Iteration   2: 315.377 ns/op
+# Warmup Iteration   3: 106.731 ns/op
+# Warmup Iteration   4: 77.086 ns/op
+# Warmup Iteration   5: 80.224 ns/op
+Iteration   1: 79.859 ns/op
+Iteration   2: 78.424 ns/op
+Iteration   3: 78.629 ns/op
+Iteration   4: 79.625 ns/op
+Iteration   5: 82.450 ns/op
+
+# Run progress: 66.09% complete, ETA 01:05:24
+# Fork: 2 of 5
+# Warmup Iteration   1: 265.944 ns/op
+# Warmup Iteration   2: 189.275 ns/op
+# Warmup Iteration   3: 98.879 ns/op
+# Warmup Iteration   4: 79.822 ns/op
+# Warmup Iteration   5: 80.245 ns/op
+Iteration   1: 80.892 ns/op
+Iteration   2: 80.383 ns/op
+Iteration   3: 81.179 ns/op
+Iteration   4: 80.829 ns/op
+Iteration   5: 79.942 ns/op
+
+# Run progress: 66.96% complete, ETA 01:03:44
+# Fork: 3 of 5
+# Warmup Iteration   1: 267.091 ns/op
+# Warmup Iteration   2: 180.851 ns/op
+# Warmup Iteration   3: 103.098 ns/op
+# Warmup Iteration   4: 80.292 ns/op
+# Warmup Iteration   5: 81.140 ns/op
+Iteration   1: 80.709 ns/op
+Iteration   2: 80.788 ns/op
+Iteration   3: 82.102 ns/op
+Iteration   4: 82.551 ns/op
+Iteration   5: 82.977 ns/op
+
+# Run progress: 67.83% complete, ETA 01:02:03
+# Fork: 4 of 5
+# Warmup Iteration   1: 277.508 ns/op
+# Warmup Iteration   2: 197.446 ns/op
+# Warmup Iteration   3: 104.551 ns/op
+# Warmup Iteration   4: 78.645 ns/op
+# Warmup Iteration   5: 79.304 ns/op
+Iteration   1: 80.101 ns/op
+Iteration   2: 79.801 ns/op
+Iteration   3: 78.376 ns/op
+Iteration   4: 81.130 ns/op
+Iteration   5: 78.617 ns/op
+
+# Run progress: 68.70% complete, ETA 01:00:22
+# Fork: 5 of 5
+# Warmup Iteration   1: 294.700 ns/op
+# Warmup Iteration   2: 192.630 ns/op
+# Warmup Iteration   3: 102.331 ns/op
+# Warmup Iteration   4: 81.504 ns/op
+# Warmup Iteration   5: 82.129 ns/op
+Iteration   1: 81.193 ns/op
+Iteration   2: 81.986 ns/op
+Iteration   3: 80.816 ns/op
+Iteration   4: 81.466 ns/op
+Iteration   5: 85.280 ns/op
+
+
+Result "com.kenfogel.performance.loaders.SequenceTests_jmh.do04eInsertLastElementDeque":
+  80.804 ±(99.9%) 1.187 ns/op [Average]
+  (min, avg, max) = (78.376, 80.804, 85.280), stdev = 1.584
+  CI (99.9%): [79.617, 81.991] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.kenfogel.performance.loaders.SequenceTests_jmh.do05aLoadLinkedList
+
+# Run progress: 69.57% complete, ETA 00:58:42
+# Fork: 1 of 5
+# Warmup Iteration   1: 11811.916 ns/op
+# Warmup Iteration   2: 7994.196 ns/op
+# Warmup Iteration   3: 7740.171 ns/op
+# Warmup Iteration   4: 8355.600 ns/op
+# Warmup Iteration   5: 10162.000 ns/op
+Iteration   1: 10220.658 ns/op
+Iteration   2: 10266.345 ns/op
+Iteration   3: 8828.604 ns/op
+Iteration   4: 8228.550 ns/op
+Iteration   5: 8070.218 ns/op
+
+# Run progress: 70.43% complete, ETA 00:57:01
+# Fork: 2 of 5
+# Warmup Iteration   1: 6277.022 ns/op
+# Warmup Iteration   2: 5497.912 ns/op
+# Warmup Iteration   3: 5974.211 ns/op
+# Warmup Iteration   4: 7952.556 ns/op
+# Warmup Iteration   5: 8042.464 ns/op
+Iteration   1: 8035.855 ns/op
+Iteration   2: 7942.871 ns/op
+Iteration   3: 8067.611 ns/op
+Iteration   4: 8008.516 ns/op
+Iteration   5: 8064.061 ns/op
+
+# Run progress: 71.30% complete, ETA 00:55:21
+# Fork: 3 of 5
+# Warmup Iteration   1: 6202.173 ns/op
+# Warmup Iteration   2: 5734.291 ns/op
+# Warmup Iteration   3: 6153.151 ns/op
+# Warmup Iteration   4: 8719.723 ns/op
+# Warmup Iteration   5: 7832.953 ns/op
+Iteration   1: 7900.827 ns/op
+Iteration   2: 7965.025 ns/op
+Iteration   3: 7786.166 ns/op
+Iteration   4: 7903.709 ns/op
+Iteration   5: 7840.398 ns/op
+
+# Run progress: 72.17% complete, ETA 00:53:40
+# Fork: 4 of 5
+# Warmup Iteration   1: 6353.527 ns/op
+# Warmup Iteration   2: 5460.374 ns/op
+# Warmup Iteration   3: 5983.395 ns/op
+# Warmup Iteration   4: 7832.144 ns/op
+# Warmup Iteration   5: 8177.827 ns/op
+Iteration   1: 7949.263 ns/op
+Iteration   2: 8176.109 ns/op
+Iteration   3: 8246.116 ns/op
+Iteration   4: 8045.227 ns/op
+Iteration   5: 7837.606 ns/op
+
+# Run progress: 73.04% complete, ETA 00:51:59
+# Fork: 5 of 5
+# Warmup Iteration   1: 6189.724 ns/op
+# Warmup Iteration   2: 5708.318 ns/op
+# Warmup Iteration   3: 6106.940 ns/op
+# Warmup Iteration   4: 7996.759 ns/op
+# Warmup Iteration   5: 8006.431 ns/op
+Iteration   1: 8025.083 ns/op
+Iteration   2: 8046.204 ns/op
+Iteration   3: 8001.839 ns/op
+Iteration   4: 8001.623 ns/op
+Iteration   5: 8075.748 ns/op
+
+
+Result "com.kenfogel.performance.loaders.SequenceTests_jmh.do05aLoadLinkedList":
+  8221.369 ±(99.9%) 479.211 ns/op [Average]
+  (min, avg, max) = (7786.166, 8221.369, 10266.345), stdev = 639.733
+  CI (99.9%): [7742.158, 8700.580] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.kenfogel.performance.loaders.SequenceTests_jmh.do05bAccessFirstElementLinkedList
+
+# Run progress: 73.91% complete, ETA 00:50:19
+# Fork: 1 of 5
+# Warmup Iteration   1: 282.400 ns/op
+# Warmup Iteration   2: 194.659 ns/op
+# Warmup Iteration   3: 119.959 ns/op
+# Warmup Iteration   4: 93.587 ns/op
+# Warmup Iteration   5: 95.405 ns/op
+Iteration   1: 96.254 ns/op
+Iteration   2: 92.547 ns/op
+Iteration   3: 93.116 ns/op
+Iteration   4: 89.503 ns/op
+Iteration   5: 95.022 ns/op
+
+# Run progress: 74.78% complete, ETA 00:48:38
+# Fork: 2 of 5
+# Warmup Iteration   1: 286.244 ns/op
+# Warmup Iteration   2: 201.253 ns/op
+# Warmup Iteration   3: 125.405 ns/op
+# Warmup Iteration   4: 97.473 ns/op
+# Warmup Iteration   5: 97.295 ns/op
+Iteration   1: 98.444 ns/op
+Iteration   2: 98.316 ns/op
+Iteration   3: 98.346 ns/op
+Iteration   4: 98.764 ns/op
+Iteration   5: 99.283 ns/op
+
+# Run progress: 75.65% complete, ETA 00:46:57
+# Fork: 3 of 5
+# Warmup Iteration   1: 721.461 ns/op
+# Warmup Iteration   2: 224.548 ns/op
+# Warmup Iteration   3: 132.962 ns/op
+# Warmup Iteration   4: 92.503 ns/op
+# Warmup Iteration   5: 91.693 ns/op
+Iteration   1: 94.602 ns/op
+Iteration   2: 93.577 ns/op
+Iteration   3: 91.755 ns/op
+Iteration   4: 93.249 ns/op
+Iteration   5: 91.760 ns/op
+
+# Run progress: 76.52% complete, ETA 00:45:17
+# Fork: 4 of 5
+# Warmup Iteration   1: 261.642 ns/op
+# Warmup Iteration   2: 186.272 ns/op
+# Warmup Iteration   3: 116.977 ns/op
+# Warmup Iteration   4: 130.237 ns/op
+# Warmup Iteration   5: 97.794 ns/op
+Iteration   1: 94.544 ns/op
+Iteration   2: 92.764 ns/op
+Iteration   3: 99.446 ns/op
+Iteration   4: 95.591 ns/op
+Iteration   5: 93.237 ns/op
+
+# Run progress: 77.39% complete, ETA 00:43:36
+# Fork: 5 of 5
+# Warmup Iteration   1: 468.891 ns/op
+# Warmup Iteration   2: 351.477 ns/op
+# Warmup Iteration   3: 138.291 ns/op
+# Warmup Iteration   4: 99.272 ns/op
+# Warmup Iteration   5: 98.580 ns/op
+Iteration   1: 97.183 ns/op
+Iteration   2: 99.648 ns/op
+Iteration   3: 95.899 ns/op
+Iteration   4: 95.803 ns/op
+Iteration   5: 95.574 ns/op
+
+
+Result "com.kenfogel.performance.loaders.SequenceTests_jmh.do05bAccessFirstElementLinkedList":
+  95.369 ±(99.9%) 2.093 ns/op [Average]
+  (min, avg, max) = (89.503, 95.369, 99.648), stdev = 2.794
+  CI (99.9%): [93.276, 97.462] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.kenfogel.performance.loaders.SequenceTests_jmh.do05cAccessLastElementLinkedList
+
+# Run progress: 78.26% complete, ETA 00:41:55
+# Fork: 1 of 5
+# Warmup Iteration   1: 277.381 ns/op
+# Warmup Iteration   2: 198.383 ns/op
+# Warmup Iteration   3: 120.675 ns/op
+# Warmup Iteration   4: 87.456 ns/op
+# Warmup Iteration   5: 84.392 ns/op
+Iteration   1: 86.026 ns/op
+Iteration   2: 85.066 ns/op
+Iteration   3: 84.503 ns/op
+Iteration   4: 86.055 ns/op
+Iteration   5: 85.683 ns/op
+
+# Run progress: 79.13% complete, ETA 00:40:15
+# Fork: 2 of 5
+# Warmup Iteration   1: 250.417 ns/op
+# Warmup Iteration   2: 177.815 ns/op
+# Warmup Iteration   3: 122.749 ns/op
+# Warmup Iteration   4: 85.459 ns/op
+# Warmup Iteration   5: 84.205 ns/op
+Iteration   1: 83.527 ns/op
+Iteration   2: 83.676 ns/op
+Iteration   3: 84.139 ns/op
+Iteration   4: 83.551 ns/op
+Iteration   5: 83.617 ns/op
+
+# Run progress: 80.00% complete, ETA 00:38:34
+# Fork: 3 of 5
+# Warmup Iteration   1: 266.226 ns/op
+# Warmup Iteration   2: 186.280 ns/op
+# Warmup Iteration   3: 116.230 ns/op
+# Warmup Iteration   4: 88.413 ns/op
+# Warmup Iteration   5: 88.289 ns/op
+Iteration   1: 89.904 ns/op
+Iteration   2: 88.587 ns/op
+Iteration   3: 89.160 ns/op
+Iteration   4: 88.214 ns/op
+Iteration   5: 88.251 ns/op
+
+# Run progress: 80.87% complete, ETA 00:36:53
+# Fork: 4 of 5
+# Warmup Iteration   1: 263.760 ns/op
+# Warmup Iteration   2: 181.578 ns/op
+# Warmup Iteration   3: 114.958 ns/op
+# Warmup Iteration   4: 84.195 ns/op
+# Warmup Iteration   5: 83.777 ns/op
+Iteration   1: 83.605 ns/op
+Iteration   2: 82.406 ns/op
+Iteration   3: 82.908 ns/op
+Iteration   4: 86.809 ns/op
+Iteration   5: 83.949 ns/op
+
+# Run progress: 81.74% complete, ETA 00:35:13
+# Fork: 5 of 5
+# Warmup Iteration   1: 275.147 ns/op
+# Warmup Iteration   2: 181.290 ns/op
+# Warmup Iteration   3: 106.390 ns/op
+# Warmup Iteration   4: 84.850 ns/op
+# Warmup Iteration   5: 83.933 ns/op
+Iteration   1: 83.972 ns/op
+Iteration   2: 84.040 ns/op
+Iteration   3: 84.284 ns/op
+Iteration   4: 83.964 ns/op
+Iteration   5: 83.447 ns/op
+
+
+Result "com.kenfogel.performance.loaders.SequenceTests_jmh.do05cAccessLastElementLinkedList":
+  85.174 ±(99.9%) 1.599 ns/op [Average]
+  (min, avg, max) = (82.406, 85.174, 89.904), stdev = 2.134
+  CI (99.9%): [83.575, 86.773] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.kenfogel.performance.loaders.SequenceTests_jmh.do05dAccessMiddleElementLinkedList
+
+# Run progress: 82.61% complete, ETA 00:33:32
+# Fork: 1 of 5
+# Warmup Iteration   1: 1332.082 ns/op
+# Warmup Iteration   2: 1211.930 ns/op
+# Warmup Iteration   3: 1163.332 ns/op
+# Warmup Iteration   4: 1062.550 ns/op
+# Warmup Iteration   5: 1075.958 ns/op
+Iteration   1: 1071.123 ns/op
+Iteration   2: 1061.191 ns/op
+Iteration   3: 1062.681 ns/op
+Iteration   4: 1079.864 ns/op
+Iteration   5: 1064.657 ns/op
+
+# Run progress: 83.48% complete, ETA 00:31:52
+# Fork: 2 of 5
+# Warmup Iteration   1: 1360.024 ns/op
+# Warmup Iteration   2: 1242.911 ns/op
+# Warmup Iteration   3: 1166.671 ns/op
+# Warmup Iteration   4: 1024.854 ns/op
+# Warmup Iteration   5: 1054.429 ns/op
+Iteration   1: 1067.148 ns/op
+Iteration   2: 1062.818 ns/op
+Iteration   3: 1052.254 ns/op
+Iteration   4: 1064.025 ns/op
+Iteration   5: 1108.384 ns/op
+
+# Run progress: 84.35% complete, ETA 00:30:11
+# Fork: 3 of 5
+# Warmup Iteration   1: 1374.090 ns/op
+# Warmup Iteration   2: 1233.272 ns/op
+# Warmup Iteration   3: 1148.585 ns/op
+# Warmup Iteration   4: 1124.013 ns/op
+# Warmup Iteration   5: 1086.051 ns/op
+Iteration   1: 1075.683 ns/op
+Iteration   2: 1061.833 ns/op
+Iteration   3: 1105.197 ns/op
+Iteration   4: 1068.272 ns/op
+Iteration   5: 1062.372 ns/op
+
+# Run progress: 85.22% complete, ETA 00:28:30
+# Fork: 4 of 5
+# Warmup Iteration   1: 1366.329 ns/op
+# Warmup Iteration   2: 2817.481 ns/op
+# Warmup Iteration   3: 1332.817 ns/op
+# Warmup Iteration   4: 1084.834 ns/op
+# Warmup Iteration   5: 1041.674 ns/op
+Iteration   1: 1077.314 ns/op
+Iteration   2: 1082.404 ns/op
+Iteration   3: 1196.380 ns/op
+Iteration   4: 1072.011 ns/op
+Iteration   5: 1062.877 ns/op
+
+# Run progress: 86.09% complete, ETA 00:26:50
+# Fork: 5 of 5
+# Warmup Iteration   1: 1346.099 ns/op
+# Warmup Iteration   2: 1225.140 ns/op
+# Warmup Iteration   3: 1138.783 ns/op
+# Warmup Iteration   4: 1079.726 ns/op
+# Warmup Iteration   5: 1085.244 ns/op
+Iteration   1: 1096.800 ns/op
+Iteration   2: 1073.474 ns/op
+Iteration   3: 1093.851 ns/op
+Iteration   4: 1079.847 ns/op
+Iteration   5: 1095.701 ns/op
+
+
+Result "com.kenfogel.performance.loaders.SequenceTests_jmh.do05dAccessMiddleElementLinkedList":
+  1079.926 ±(99.9%) 21.280 ns/op [Average]
+  (min, avg, max) = (1052.254, 1079.926, 1196.380), stdev = 28.408
+  CI (99.9%): [1058.647, 1101.206] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.kenfogel.performance.loaders.SequenceTests_jmh.do05eInsertFirstElementLinkedList
+
+# Run progress: 86.96% complete, ETA 00:25:09
+# Fork: 1 of 5
+# Warmup Iteration   1: 285.691 ns/op
+# Warmup Iteration   2: 180.227 ns/op
+# Warmup Iteration   3: 103.610 ns/op
+# Warmup Iteration   4: 86.855 ns/op
+# Warmup Iteration   5: 87.983 ns/op
+Iteration   1: 88.664 ns/op
+Iteration   2: 88.485 ns/op
+Iteration   3: 89.038 ns/op
+Iteration   4: 88.731 ns/op
+Iteration   5: 90.235 ns/op
+
+# Run progress: 87.83% complete, ETA 00:23:28
+# Fork: 2 of 5
+# Warmup Iteration   1: 269.255 ns/op
+# Warmup Iteration   2: 179.023 ns/op
+# Warmup Iteration   3: 105.745 ns/op
+# Warmup Iteration   4: 95.076 ns/op
+# Warmup Iteration   5: 91.474 ns/op
+Iteration   1: 94.268 ns/op
+Iteration   2: 94.010 ns/op
+Iteration   3: 93.326 ns/op
+Iteration   4: 93.786 ns/op
+Iteration   5: 93.580 ns/op
+
+# Run progress: 88.70% complete, ETA 00:21:48
+# Fork: 3 of 5
+# Warmup Iteration   1: 277.043 ns/op
+# Warmup Iteration   2: 188.474 ns/op
+# Warmup Iteration   3: 114.252 ns/op
+# Warmup Iteration   4: 94.163 ns/op
+# Warmup Iteration   5: 93.761 ns/op
+Iteration   1: 95.490 ns/op
+Iteration   2: 94.913 ns/op
+Iteration   3: 94.548 ns/op
+Iteration   4: 98.131 ns/op
+Iteration   5: 94.693 ns/op
+
+# Run progress: 89.57% complete, ETA 00:20:07
+# Fork: 4 of 5
+# Warmup Iteration   1: 303.271 ns/op
+# Warmup Iteration   2: 201.305 ns/op
+# Warmup Iteration   3: 114.323 ns/op
+# Warmup Iteration   4: 92.595 ns/op
+# Warmup Iteration   5: 93.085 ns/op
+Iteration   1: 90.602 ns/op
+Iteration   2: 90.721 ns/op
+Iteration   3: 91.332 ns/op
+Iteration   4: 90.678 ns/op
+Iteration   5: 91.701 ns/op
+
+# Run progress: 90.43% complete, ETA 00:18:26
+# Fork: 5 of 5
+# Warmup Iteration   1: 277.799 ns/op
+# Warmup Iteration   2: 178.181 ns/op
+# Warmup Iteration   3: 101.823 ns/op
+# Warmup Iteration   4: 88.119 ns/op
+# Warmup Iteration   5: 87.989 ns/op
+Iteration   1: 87.607 ns/op
+Iteration   2: 88.916 ns/op
+Iteration   3: 88.757 ns/op
+Iteration   4: 88.360 ns/op
+Iteration   5: 89.445 ns/op
+
+
+Result "com.kenfogel.performance.loaders.SequenceTests_jmh.do05eInsertFirstElementLinkedList":
+  91.601 ±(99.9%) 2.139 ns/op [Average]
+  (min, avg, max) = (87.607, 91.601, 98.131), stdev = 2.855
+  CI (99.9%): [89.462, 93.740] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.kenfogel.performance.loaders.SequenceTests_jmh.do05fInsertLastElementLinkedList
+
+# Run progress: 91.30% complete, ETA 00:16:46
+# Fork: 1 of 5
+# Warmup Iteration   1: 264.515 ns/op
+# Warmup Iteration   2: 198.494 ns/op
+# Warmup Iteration   3: 111.912 ns/op
+# Warmup Iteration   4: 94.293 ns/op
+# Warmup Iteration   5: 95.756 ns/op
+Iteration   1: 98.046 ns/op
+Iteration   2: 98.300 ns/op
+Iteration   3: 94.809 ns/op
+Iteration   4: 95.032 ns/op
+Iteration   5: 94.515 ns/op
+
+# Run progress: 92.17% complete, ETA 00:15:05
+# Fork: 2 of 5
+# Warmup Iteration   1: 273.778 ns/op
+# Warmup Iteration   2: 182.877 ns/op
+# Warmup Iteration   3: 103.513 ns/op
+# Warmup Iteration   4: 97.318 ns/op
+# Warmup Iteration   5: 96.304 ns/op
+Iteration   1: 93.422 ns/op
+Iteration   2: 92.317 ns/op
+Iteration   3: 94.405 ns/op
+Iteration   4: 96.170 ns/op
+Iteration   5: 96.088 ns/op
+
+# Run progress: 93.04% complete, ETA 00:13:24
+# Fork: 3 of 5
+# Warmup Iteration   1: 316.166 ns/op
+# Warmup Iteration   2: 219.133 ns/op
+# Warmup Iteration   3: 172.604 ns/op
+# Warmup Iteration   4: 92.049 ns/op
+# Warmup Iteration   5: 92.248 ns/op
+Iteration   1: 92.640 ns/op
+Iteration   2: 91.966 ns/op
+Iteration   3: 90.968 ns/op
+Iteration   4: 91.672 ns/op
+Iteration   5: 90.844 ns/op
+
+# Run progress: 93.91% complete, ETA 00:11:44
+# Fork: 4 of 5
+# Warmup Iteration   1: 279.215 ns/op
+# Warmup Iteration   2: 182.969 ns/op
+# Warmup Iteration   3: 109.195 ns/op
+# Warmup Iteration   4: 96.268 ns/op
+# Warmup Iteration   5: 93.835 ns/op
+Iteration   1: 92.803 ns/op
+Iteration   2: 94.123 ns/op
+Iteration   3: 93.266 ns/op
+Iteration   4: 93.929 ns/op
+Iteration   5: 94.675 ns/op
+
+# Run progress: 94.78% complete, ETA 00:10:03
+# Fork: 5 of 5
+# Warmup Iteration   1: 299.936 ns/op
+# Warmup Iteration   2: 193.892 ns/op
+# Warmup Iteration   3: 111.702 ns/op
+# Warmup Iteration   4: 95.759 ns/op
+# Warmup Iteration   5: 94.768 ns/op
+Iteration   1: 95.740 ns/op
+Iteration   2: 93.616 ns/op
+Iteration   3: 94.333 ns/op
+Iteration   4: 94.218 ns/op
+Iteration   5: 94.189 ns/op
+
+
+Result "com.kenfogel.performance.loaders.SequenceTests_jmh.do05fInsertLastElementLinkedList":
+  94.083 ±(99.9%) 1.413 ns/op [Average]
+  (min, avg, max) = (90.844, 94.083, 98.300), stdev = 1.887
+  CI (99.9%): [92.670, 95.497] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.kenfogel.performance.loaders.SequenceTests_jmh.do05gInsertMiddleElementLinkedList
+
+# Run progress: 95.65% complete, ETA 00:08:23
+# Fork: 1 of 5
+# Warmup Iteration   1: 1277.250 ns/op
+# Warmup Iteration   2: 1145.387 ns/op
+# Warmup Iteration   3: 1158.026 ns/op
+# Warmup Iteration   4: 1189.734 ns/op
+# Warmup Iteration   5: 1196.739 ns/op
+Iteration   1: 1191.736 ns/op
+Iteration   2: 1181.450 ns/op
+Iteration   3: 1182.422 ns/op
+Iteration   4: 1184.284 ns/op
+Iteration   5: 1189.389 ns/op
+
+# Run progress: 96.52% complete, ETA 00:06:42
+# Fork: 2 of 5
+# Warmup Iteration   1: 1335.732 ns/op
+# Warmup Iteration   2: 1197.169 ns/op
+# Warmup Iteration   3: 1166.139 ns/op
+# Warmup Iteration   4: 1185.843 ns/op
+# Warmup Iteration   5: 1175.064 ns/op
+Iteration   1: 1186.522 ns/op
+Iteration   2: 1189.569 ns/op
+Iteration   3: 1216.273 ns/op
+Iteration   4: 1196.134 ns/op
+Iteration   5: 1193.052 ns/op
+
+# Run progress: 97.39% complete, ETA 00:05:01
+# Fork: 3 of 5
+# Warmup Iteration   1: 1356.096 ns/op
+# Warmup Iteration   2: 1243.565 ns/op
+# Warmup Iteration   3: 1214.817 ns/op
+# Warmup Iteration   4: 1217.741 ns/op
+# Warmup Iteration   5: 1238.953 ns/op
+Iteration   1: 1216.690 ns/op
+Iteration   2: 1226.262 ns/op
+Iteration   3: 1194.516 ns/op
+Iteration   4: 1212.390 ns/op
+Iteration   5: 1208.226 ns/op
+
+# Run progress: 98.26% complete, ETA 00:03:21
+# Fork: 4 of 5
+# Warmup Iteration   1: 1366.959 ns/op
+# Warmup Iteration   2: 1226.714 ns/op
+# Warmup Iteration   3: 1207.125 ns/op
+# Warmup Iteration   4: 1221.801 ns/op
+# Warmup Iteration   5: 1211.908 ns/op
+Iteration   1: 1210.824 ns/op
+Iteration   2: 1208.905 ns/op
+Iteration   3: 1206.748 ns/op
+Iteration   4: 1224.093 ns/op
+Iteration   5: 1191.876 ns/op
+
+# Run progress: 99.13% complete, ETA 00:01:40
+# Fork: 5 of 5
+# Warmup Iteration   1: 1365.875 ns/op
+# Warmup Iteration   2: 1235.805 ns/op
+# Warmup Iteration   3: 1164.877 ns/op
+# Warmup Iteration   4: 1183.360 ns/op
+# Warmup Iteration   5: 1174.249 ns/op
+Iteration   1: 1184.995 ns/op
+Iteration   2: 1186.591 ns/op
+Iteration   3: 1183.745 ns/op
+Iteration   4: 1159.625 ns/op
+Iteration   5: 1194.672 ns/op
+
+
+Result "com.kenfogel.performance.loaders.SequenceTests_jmh.do05gInsertMiddleElementLinkedList":
+  1196.840 ±(99.9%) 11.730 ns/op [Average]
+  (min, avg, max) = (1159.625, 1196.840, 1226.262), stdev = 15.660
+  CI (99.9%): [1185.109, 1208.570] (assumes normal distribution)
+
+
+# Run complete. Total time: 03:12:51
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark                                             Mode  Cnt     Score     Error  Units
+SequenceTests_jmh.do02aLoadArray                      avgt   25  3830.376 ±  98.729  ns/op
+SequenceTests_jmh.do02bAccessFirstElementArray        avgt   25   103.608 ±   6.857  ns/op
+SequenceTests_jmh.do02cAccessLastElementArray         avgt   25    94.764 ±   2.081  ns/op
+SequenceTests_jmh.do02dAccessMiddleElementArray       avgt   25   104.650 ±   7.653  ns/op
+SequenceTests_jmh.do03aLoadArrayList                  avgt   25  7176.861 ±  79.811  ns/op
+SequenceTests_jmh.do03bAccessFirstElementArrayList    avgt   25   121.984 ±   9.295  ns/op
+SequenceTests_jmh.do03cAccessLastElementArrayList     avgt   25   109.595 ±   5.860  ns/op
+SequenceTests_jmh.do03dAccessMiddleElementArrayList   avgt   25   123.077 ±  11.754  ns/op
+SequenceTests_jmh.do03eInsertFirstElementArrayList    avgt   25   574.511 ±  57.051  ns/op
+SequenceTests_jmh.do03fInsertLastElementArrayList     avgt   25    86.580 ±   5.345  ns/op
+SequenceTests_jmh.do03gInsertMiddleElementArrayList   avgt   25   447.211 ±  55.328  ns/op
+SequenceTests_jmh.do04aLoadDeque                      avgt   25  3848.100 ±  38.608  ns/op
+SequenceTests_jmh.do04bAccessFirstElementDeque        avgt   25    97.516 ±   6.804  ns/op
+SequenceTests_jmh.do04cAccessLastElementDeque         avgt   25    88.134 ±   4.772  ns/op
+SequenceTests_jmh.do04dInsertFirstElementDeque        avgt   25   116.311 ±  18.783  ns/op
+SequenceTests_jmh.do04eInsertLastElementDeque         avgt   25    80.804 ±   1.187  ns/op
+SequenceTests_jmh.do05aLoadLinkedList                 avgt   25  8221.369 ± 479.211  ns/op
+SequenceTests_jmh.do05bAccessFirstElementLinkedList   avgt   25    95.369 ±   2.093  ns/op
+SequenceTests_jmh.do05cAccessLastElementLinkedList    avgt   25    85.174 ±   1.599  ns/op
+SequenceTests_jmh.do05dAccessMiddleElementLinkedList  avgt   25  1079.926 ±  21.280  ns/op
+SequenceTests_jmh.do05eInsertFirstElementLinkedList   avgt   25    91.601 ±   2.139  ns/op
+SequenceTests_jmh.do05fInsertLastElementLinkedList    avgt   25    94.083 ±   1.413  ns/op
+SequenceTests_jmh.do05gInsertMiddleElementLinkedList  avgt   25  1196.840 ±  11.730  ns/op
